@@ -3,31 +3,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the components and surfaces page in the CopilotKit docs, for Google Antigravity with React, and umm, I have implemented this page in my project."
-  },
-  {
-   "at": "ide",
-   "text": "This is my project, with the doc's code."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So I sent the doc's own prompt, compare the starter, team and enterprise plans in a table. And uh, with standard UI on the provider, we should get a proper component back."
-  },
-  {
-   "at": "+",
-   "text": "The agent is still thinking here. The doc says the runtime gives the run a render UI tool, umm, when the provider sends a catalog. So the reply should be a rendered component, not just text. Let's see what comes back."
-  },
-  {
-   "at": "+",
-   "text": "So no standard UI component renders at all. No table, no card, uh, nothing from the catalog."
+   "text": "Ok so this is the Components and surfaces page for Google Antigravity, and I'm reporting a problem on this page."
   },
   {
    "at": "evidence",
-   "text": "Back on the doc, it says do step three only, your runtime needs no change. But on Antigravity, umm, nothing renders."
+   "text": "So this is the problem, umm, it says do step three only, and the runtime needs no change, but that's not enough for Antigravity."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "One thing wasn't on the page, which agent to use, so I added the Antigravity agent id myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked it to compare the plans in a table, it should render a component, but uh, I only get plain text."
   },
   {
    "at": "notepad",
-   "text": "So noting it. The page says do step three only, and with the Antigravity agent no component is rendered at all. The page's actual walkthrough is a built in agent with OpenAI, umm, not Antigravity. Alright, that's the issue, kindly sort it out."
+   "text": "So basically, step three alone should give you generated UI, but nothing renders, and the walkthrough here is for a different agent, not Antigravity."
+  },
+  {
+   "at": "+",
+   "text": "So this needs a fix, kindly check it."
   }
  ]
 }

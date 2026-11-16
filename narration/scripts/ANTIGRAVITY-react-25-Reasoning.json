@@ -5,35 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the reasoning page under generative UI in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Reasoning page for Google Antigravity, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So I gave it a small train problem and asked it to think step by step."
-  },
-  {
-   "at": "+",
-   "text": "So on the Antigravity agent the chat replies, but uh, no reasoning block ever renders."
-  },
-  {
-   "at": "evidence#1",
-   "text": "Back on the doc, this suggestions hook is called here."
+   "at": "evidence",
+   "text": "So this is the problem, umm, this suggestions hook is never defined anywhere on the page."
   },
   {
    "at": "evidence#2",
-   "text": "And this agent runs on reasoning dot p y, umm, from the code tab."
+   "text": "And the backend for this agent needs an agents common module, which is never shown."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. It should show a reasoning block, but uh, the chat just answers in plain text."
   },
   {
    "at": "notepad",
-   "text": "So basically, the custom suggestions hook is never defined. And the backend, reasoning dot p y, takes its reasoning model from agents underscore common, which umm, isn't published anywhere."
-  },
-  {
-   "at": "+",
-   "text": "So umm, as written, you can't get the reasoning block to show."
+   "text": "So basically, the page promises a reasoning block, there's none, and the hook and the backend model are both missing from the page."
   },
   {
    "at": "+",

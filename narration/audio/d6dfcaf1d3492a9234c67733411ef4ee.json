@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked for the trail runner card, it should show a product card, but uh, the reply is empty or the run fails.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 10.124,
+ "file": "d6dfcaf1d3492a9234c67733411ef4ee.mp3",
+ "clip": "ANTIGRAVITY-react-31-StateAndActions",
+ "at": "demo"
+}

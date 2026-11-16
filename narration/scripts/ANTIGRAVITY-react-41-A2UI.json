@@ -5,35 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the A two UI page for Google Antigravity, and I have implemented it in my project."
+   "text": "Ok so this is the A2UI page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, my catalog is passed in here, but it's never defined, and no agent is named."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part wasn't on the page, the catalog and the agent, so I had to fill those in myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a quick sales KPI dashboard."
-  },
-  {
-   "at": "+",
-   "text": "And no dashboard renders at all, I only get text or an error back."
-  },
-  {
-   "at": "evidence#1",
-   "text": "On the doc, the catalog passed in here is never defined."
+   "text": "Moving on to the demo. I asked for a KPI dashboard, it should render one, but uh, I only get text or an error."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page only shows fragments. My catalog isn't defined and no agent is named, so umm, I had to guess the setup."
+   "text": "So basically, the page should give you an A2UI dashboard, but it only shows fragments, so you have to guess the setup, and it still doesn't render."
   },
   {
    "at": "+",
-   "text": "And even with that, no A two UI dashboard ever renders."
-  },
-  {
-   "at": "+",
-   "text": "So this needs a fix, kindly check it."
+   "text": "That's the issue here, kindly take a look."
   }
  ]
 }

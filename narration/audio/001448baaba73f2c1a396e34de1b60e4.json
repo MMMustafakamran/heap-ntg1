@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. The voice page should load a voice chat, but it fails with module not found, and umm, it breaks the other routes too.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.706,
+ "file": "001448baaba73f2c1a396e34de1b60e4.mp3",
+ "clip": "ANTIGRAVITY-react-24-Voice",
+ "at": "demo"
+}

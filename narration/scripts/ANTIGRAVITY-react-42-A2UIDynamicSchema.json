@@ -5,35 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the A two UI dynamic schema page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Dynamic Schema page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the page says that's all the default path needs, but it's not working."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, the definitions and the agent."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a sales KPI dashboard."
-  },
-  {
-   "at": "+",
-   "text": "And uh, no dashboard renders. The chat shows an A two UI render error instead."
-  },
-  {
-   "at": "evidence#1",
-   "text": "The doc says this is all the default path needs."
+   "text": "Moving on to the demo. I asked for a sales dashboard, it should render one, but uh, it shows an A2UI render error."
   },
   {
    "at": "notepad",
-   "text": "So basically, it's wired just like the page, but the render fails with cannot read properties of undefined, reading map."
+   "text": "So basically, everything is wired exactly like the page, and instead of a dashboard you get cannot read properties of undefined, reading map."
   },
   {
    "at": "+",
-   "text": "Same thing happens on LangGraph React too."
-  },
-  {
-   "at": "+",
-   "text": "That's it for this one, kindly look into this issue."
+   "text": "So please have a look at this one and fix it."
   }
  ]
 }

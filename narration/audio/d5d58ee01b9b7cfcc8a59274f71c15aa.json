@@ -1,0 +1,9 @@
+{
+ "text": "So basically, the canvas shows, but the agent never sees its state, and the page never says the agent needs shared state turned on.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 10.17,
+ "file": "d5d58ee01b9b7cfcc8a59274f71c15aa.mp3",
+ "clip": "ANTIGRAVITY-react-20-RenderingInApp",
+ "at": "notepad"
+}

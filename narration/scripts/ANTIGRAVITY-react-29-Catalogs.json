@@ -5,31 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the catalogs page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Catalogs page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the shop catalog is passed in like this, umm, but the agent can't render any of it."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for two running shoes as product cards."
-  },
-  {
-   "at": "+",
-   "text": "The agent calls render UI, but no product card renders, the reply stays empty."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is where the catalog gets passed in."
+   "text": "Moving on to the demo. I asked for running shoes as product cards, it should show the cards, but uh, the reply stays empty."
   },
   {
    "at": "notepad",
-   "text": "So yeah, the catalog is wired like the page says, but umm, on Antigravity nothing from it ever renders."
+   "text": "So basically, the catalog should render product cards, but the agent's render UI call has no renderer, so nothing shows."
   },
   {
    "at": "+",
-   "text": "Alright, that's the issue, kindly sort it out."
+   "text": "So yeah, please take a look and fix this."
   }
  ]
 }

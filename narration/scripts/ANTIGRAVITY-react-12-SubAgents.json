@@ -5,39 +5,35 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the sub-agents page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Sub-Agents page for Google Antigravity, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact sub-agents file from the doc."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So I asked the supervisor to research, draft and critique a short blog post."
-  },
-  {
-   "at": "error",
-   "text": "And uh, the run just fails with fetch failed. The sub-agents server never started, so nothing gets delegated."
-  },
-  {
-   "at": "evidence#1",
-   "text": "Back on the doc, the install step is just pip install ag-ui antigravity and google antigravity. No h t t p x."
+   "at": "evidence",
+   "text": "So this is the problem, the install step only has these two packages."
   },
   {
    "at": "evidence#2",
-   "text": "But the sub-agents file starts with import h t t p x."
+   "text": "But uh, the sub agents file imports httpx right at the top."
   },
   {
-   "at": "notepad",
-   "text": "So basically, h t t p x used to come in with the old google genai, but the new one dropped it. So today, umm, the server crashes on start."
-  },
-  {
-   "at": "failure",
-   "text": "And this is the server log, module not found, no module named h t t p x."
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "+",
-   "text": "That's the problem here, please have a look."
+   "text": "This part wasn't on the page, some imports and styles for the delegation log, so I added them myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. The supervisor should hand work to its sub agents, but umm, the server won't even start, module not found for httpx."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the page never tells you to install httpx, and newer google genai doesn't bring it anymore, so it crashes as written."
+  },
+  {
+   "at": "+",
+   "text": "So umm, kindly sort this out."
   }
  ]
 }

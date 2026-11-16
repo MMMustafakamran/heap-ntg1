@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked it to compare the plans in a table, it should render a component, but uh, I only get plain text.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.66,
+ "file": "ea9f6b4a885a5041b69ac3f207c09f35.mp3",
+ "clip": "ANTIGRAVITY-react-10-Components",
+ "at": "demo"
+}

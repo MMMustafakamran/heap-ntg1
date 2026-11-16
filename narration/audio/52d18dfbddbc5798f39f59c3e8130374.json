@@ -1,0 +1,9 @@
+{
+ "text": "And the backend for this agent needs an agents common module, which is never shown.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 5.341,
+ "file": "52d18dfbddbc5798f39f59c3e8130374.mp3",
+ "clip": "ANTIGRAVITY-react-25-Reasoning",
+ "at": "evidence#2"
+}

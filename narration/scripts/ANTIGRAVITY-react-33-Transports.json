@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the transports page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Transports page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the only agent setup here is for LangGraph, nothing for Antigravity."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "One thing wasn't on the page, which agent to use, so I added the Antigravity agent id myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked it to compare three plans in a table."
-  },
-  {
-   "at": "+",
-   "text": "No UI shows up, just a plain text answer or a failed run."
-  },
-  {
-   "at": "evidence#1",
-   "text": "The page only shows the LangGraph middleware here."
+   "text": "Moving on to the demo. I asked for the plans table, it should render generated UI, but uh, I get plain text or a failed run."
   },
   {
    "at": "notepad",
-   "text": "So basically, there's no Antigravity setup on this page, and umm, with the Antigravity agent nothing renders."
+   "text": "So basically, the transport should carry the UI, but no UI ever shows up, because the page only explains the LangGraph setup."
   },
   {
    "at": "+",
-   "text": "So this one needs a look too, kindly fix it."
+   "text": "So yeah, kindly check this and fix it."
   }
  ]
 }

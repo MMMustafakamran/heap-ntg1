@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the markdown mode page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Markdown mode page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, it says any other agent just needs the context in its prompt, uh, but not how for Antigravity."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "One thing wasn't on the page, which agent to use, so I added the Antigravity agent id myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a seat estimator with a slider."
-  },
-  {
-   "at": "+",
-   "text": "And uh, no UI ever shows up. The agent never sends the a two UI block."
-  },
-  {
-   "at": "evidence#1",
-   "text": "The page just says put the context into the system prompt."
+   "text": "Moving on to the demo. I asked for a seat estimator, it should show the UI, but umm, the reply is empty or just text."
   },
   {
    "at": "notepad",
-   "text": "So yeah, it never says how to do that for an Antigravity agent, so nothing renders."
+   "text": "So basically, markdown mode should render a UI block, nothing shows, and the page never says how to give the context to an Antigravity agent."
   },
   {
    "at": "+",
-   "text": "Kindly look into this one as well."
+   "text": "Ok so that's the problem, kindly get it fixed."
   }
  ]
 }

@@ -1,0 +1,380 @@
+{
+  "checkedAt": "2026-11-11T12:18:01.853Z",
+  "root": "google-antigravity",
+  "state": "clean",
+  "unknown": [],
+  "pages": [
+    {
+      "docPath": "",
+      "url": "https://docs.copilotkit.ai/google-antigravity",
+      "tracked": false,
+      "state": "same"
+    },
+    {
+      "docPath": "build-with-agents",
+      "url": "https://docs.copilotkit.ai/google-antigravity/build-with-agents",
+      "tracked": false,
+      "state": "same"
+    },
+    {
+      "docPath": "community-frameworks",
+      "url": "https://docs.copilotkit.ai/google-antigravity/community-frameworks",
+      "tracked": false,
+      "state": "same"
+    },
+    {
+      "docPath": "custom-look-and-feel/css",
+      "url": "https://docs.copilotkit.ai/google-antigravity/custom-look-and-feel/css",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/headless-ui",
+      "url": "https://docs.copilotkit.ai/google-antigravity/custom-look-and-feel/headless-ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/markdown",
+      "url": "https://docs.copilotkit.ai/google-antigravity/custom-look-and-feel/markdown",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/reasoning-messages",
+      "url": "https://docs.copilotkit.ai/google-antigravity/custom-look-and-feel/reasoning-messages",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/slots",
+      "url": "https://docs.copilotkit.ai/google-antigravity/custom-look-and-feel/slots",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "frontend-tools",
+      "url": "https://docs.copilotkit.ai/google-antigravity/frontend-tools",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "generative-ui",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui",
+      "tracked": false,
+      "state": "same"
+    },
+    {
+      "docPath": "generative-ui/a2ui",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "generative-ui/a2ui/dynamic-schema",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui/dynamic-schema",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/a2ui/fixed-schema",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui/fixed-schema",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "generative-ui/components/catalogs",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/catalogs",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/from-a2ui",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/from-a2ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/markdown-mode",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/markdown-mode",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/standard-catalog",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/standard-catalog",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/state-and-actions",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/state-and-actions",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/surfaces",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/surfaces",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/theming",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/theming",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/transports",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/components/transports",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/hashbrown",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/hashbrown",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/json-render",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/json-render",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/mcp-apps",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/mcp-apps",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "generative-ui/open-generative-ui",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/open-generative-ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/reasoning",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/reasoning",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/state-rendering",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/state-rendering",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "generative-ui/tool-based",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/tool-based",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/tool-rendering",
+      "url": "https://docs.copilotkit.ai/google-antigravity/generative-ui/tool-rendering",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "headless-threads",
+      "url": "https://docs.copilotkit.ai/google-antigravity/headless-threads",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "human-in-the-loop",
+      "url": "https://docs.copilotkit.ai/google-antigravity/human-in-the-loop",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "human-in-the-loop/governed-actions",
+      "url": "https://docs.copilotkit.ai/google-antigravity/human-in-the-loop/governed-actions",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "human-in-the-loop/headless",
+      "url": "https://docs.copilotkit.ai/google-antigravity/human-in-the-loop/headless",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "human-in-the-loop/useInterrupt",
+      "url": "https://docs.copilotkit.ai/google-antigravity/human-in-the-loop/useInterrupt",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "inspector",
+      "url": "https://docs.copilotkit.ai/google-antigravity/inspector",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "learning",
+      "url": "https://docs.copilotkit.ai/google-antigravity/learning",
+      "tracked": false,
+      "state": "same"
+    },
+    {
+      "docPath": "multi-agent/subagents",
+      "url": "https://docs.copilotkit.ai/google-antigravity/multi-agent/subagents",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "multimodal-attachments",
+      "url": "https://docs.copilotkit.ai/google-antigravity/multimodal-attachments",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/chat",
+      "url": "https://docs.copilotkit.ai/google-antigravity/prebuilt-components/chat",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/chat-controls",
+      "url": "https://docs.copilotkit.ai/google-antigravity/prebuilt-components/chat-controls",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/copilot-threads-drawer",
+      "url": "https://docs.copilotkit.ai/google-antigravity/prebuilt-components/copilot-threads-drawer",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/popup",
+      "url": "https://docs.copilotkit.ai/google-antigravity/prebuilt-components/popup",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/sidebar",
+      "url": "https://docs.copilotkit.ai/google-antigravity/prebuilt-components/sidebar",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "quickstart",
+      "url": "https://docs.copilotkit.ai/google-antigravity/quickstart",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "shared-state",
+      "url": "https://docs.copilotkit.ai/google-antigravity/shared-state",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "shared-state/agent-readonly",
+      "url": "https://docs.copilotkit.ai/google-antigravity/shared-state/agent-readonly",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "shared-state/rendering-in-app",
+      "url": "https://docs.copilotkit.ai/google-antigravity/shared-state/rendering-in-app",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "shared-state/streaming",
+      "url": "https://docs.copilotkit.ai/google-antigravity/shared-state/streaming",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    },
+    {
+      "docPath": "telemetry",
+      "url": "https://docs.copilotkit.ai/google-antigravity/telemetry",
+      "tracked": false,
+      "state": "same"
+    },
+    {
+      "docPath": "voice",
+      "url": "https://docs.copilotkit.ai/google-antigravity/voice",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "webmcp",
+      "url": "https://docs.copilotkit.ai/google-antigravity/webmcp",
+      "tracked": true,
+      "active": true,
+      "state": "same"
+    }
+  ],
+  "sidebar": {
+    "added": [],
+    "removed": [],
+    "renamed": []
+  },
+  "reach": [],
+  "newPages": [],
+  "deadLinks": [
+    {
+      "url": "https://docs.copilotkit.ai/google-antigravity/react-native",
+      "how": "linked from /google-antigravity/inspector"
+    }
+  ],
+  "held": []
+}

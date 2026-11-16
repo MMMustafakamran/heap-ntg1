@@ -1,0 +1,9 @@
+{
+ "text": "So this is the problem, it says any other agent just needs the context in its prompt, uh, but not how for Antigravity.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.381,
+ "file": "858fcf8d63977c8ba2b4f9ec696725a5.mp3",
+ "clip": "ANTIGRAVITY-react-34-MarkdownMode",
+ "at": "evidence"
+}

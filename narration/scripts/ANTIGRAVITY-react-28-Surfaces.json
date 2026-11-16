@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the surfaces page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Surfaces page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the agent is supposed to fill this surface, but on Antigravity it never does."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part wasn't on the page, the shop catalog it imports, so I copied it from the Catalogs page."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for two cheap running shoes in the featured products row."
-  },
-  {
-   "at": "+",
-   "text": "The agent calls render UI, but uh, nothing renders, not in the page and not in the chat."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the surface the products should land in."
+   "text": "Moving on to the demo. The featured row should get filled by the agent, but uh, nothing renders, not on the page and not in the chat."
   },
   {
    "at": "notepad",
-   "text": "So basically, on Antigravity there's no renderer for render UI, so the surface just stays empty."
+   "text": "So basically, the agent calls render UI, but no renderer is registered for it, and the catalog file was never on the page."
   },
   {
    "at": "+",
-   "text": "So umm, this one needs fixing, please look into it."
+   "text": "That's it for this one, kindly look into this issue."
   }
  ]
 }

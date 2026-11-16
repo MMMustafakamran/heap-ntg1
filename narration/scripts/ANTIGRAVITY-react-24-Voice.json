@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the voice page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Voice page for Google Antigravity, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, plus the voice route."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So the voice page doesn't load at all, it just errors out, because the voice chat file it imports doesn't exist."
-  },
-  {
-   "at": "evidence#1",
-   "text": "On the doc, page dot t s x imports voice chat from a local file."
+   "at": "evidence",
+   "text": "So this is the problem, the page imports voice chat from a local file, and that file isn't on the page."
   },
   {
    "at": "evidence#2",
-   "text": "And this voice package has no install step either."
+   "text": "And uh, there's no install step for this voice package either."
   },
   {
-   "at": "notepad",
-   "text": "So basically, the code tab shows the page, the sample audio button, the transcription service and the route, but no voice chat file. Next fails with module not found, and umm, that build error blanks every route of the app, not just this one."
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "+",
-   "text": "I only added a stub so the other pages load, the voice page is still dead."
+   "text": "This part wasn't on the page, the voice chat file, so I had to add a placeholder myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. The voice page should load a voice chat, but it fails with module not found, and umm, it breaks the other routes too."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the page should give you working voice input, but the app doesn't even build, because the voice chat file is missing."
   },
   {
    "at": "+",

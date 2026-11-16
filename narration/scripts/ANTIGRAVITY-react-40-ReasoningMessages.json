@@ -5,35 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the reasoning messages page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Reasoning Messages page for Google Antigravity, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So I asked it to think step by step about a small multiplication."
-  },
-  {
-   "at": "+",
-   "text": "So uh, on the Antigravity agent you never get a reasoning message."
-  },
-  {
-   "at": "evidence#1",
-   "text": "On the doc, it says some models emit reasoning tokens."
+   "at": "evidence",
+   "text": "So this is the problem, umm, the page says models show their reasoning, but it never says which model to use."
   },
   {
    "at": "evidence#2",
-   "text": "And this agent is backed by the reasoning dot p y file in the code tab."
+   "text": "And this agent's backend takes its model from an agents common module, which isn't on the page."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked it to think step by step, it should show a reasoning message, but uh, it just gives the plain answer."
   },
   {
    "at": "notepad",
-   "text": "So basically, that backend imports its reasoning model from agents underscore common, and that module isn't published, so you don't know which model to use."
-  },
-  {
-   "at": "+",
-   "text": "So uh, following the page, you never get a reasoning message."
+   "text": "So basically, the doc says reasoning shows up in the chat, but nothing shows, because the backend needs a common module that's never published."
   },
   {
    "at": "+",

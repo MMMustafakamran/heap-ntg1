@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the adopt from A two UI page in the CopilotKit docs, for Google Antigravity with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Adopt from A2UI page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the airport and arrow catalog is passed in here, but it never renders."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part wasn't on the page, the zod import, so I added it myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for my flight from SFO to JFK with the airport components."
-  },
-  {
-   "at": "+",
-   "text": "No airport or arrow UI shows up, just an empty reply or a failed run."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is where the app catalog is passed in."
+   "text": "Moving on to the demo. I asked for my flight, it should show the airport and arrow UI, but uh, the reply is empty or the run fails."
   },
   {
    "at": "notepad",
-   "text": "So basically, the components are set up like the page says, but umm, none of them render on Antigravity."
+   "text": "So basically, the custom components should show, nothing renders, and the page even leaves out an import."
   },
   {
    "at": "+",
-   "text": "That's all for this one, please have it fixed."
+   "text": "So yeah, that's the issue, please fix it."
   }
  ]
 }
