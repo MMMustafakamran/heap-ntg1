@@ -55,9 +55,9 @@ Stack: `@copilotkit/react-core`/`runtime` 1.85.0, `@ag-ui/client` 1.0.4, `next` 
 - **Result:** console `[CopilotKit] The agent called the tool "render_ui", and no renderer is registered for it`; the featured row keeps its fallback, the chat shows an empty assistant message. Same on the doc's own runtime shape (re-checked 2026-11-12, see #42).
 
 ### [Catalogs](https://docs.copilotkit.ai/google-antigravity/generative-ui/components/catalogs)
-**#89 The agent calls `render_ui`, but no catalog component renders; the reply stays empty.**
+**#89 No catalog component renders: the run dies on a Gemini 400 after the agent calls `generate_image`.**
 - **Doc:** `createGenerativeUI({ id: "acme/shop@1", components: { ProductGrid, ProductCard } })` + `<CopilotKitProvider runtimeUrl="/api/copilotkit" generativeUI={{ ui: shopUI }}>`.
-- **Result:** "no renderer is registered" for `render_ui`; no ProductGrid/ProductCard, empty assistant bubble. Same on the doc's own runtime shape (re-checked 2026-11-12).
+- **Result:** the agent calls `generate_image` instead of `render_ui`, then the run fails: `AntigravityExecutionError ... Error 400, Message: Multimodal function responses are not supported for this model., Status: INVALID_ARGUMENT`. No ProductGrid/ProductCard, empty assistant bubble. Seen in both CI takes of 2026-11-16 (CopilotKit 1.88.0); before that (2026-11-12) the run reached `render_ui` with "no renderer is registered".
 
 ### [Standard catalog](https://docs.copilotkit.ai/google-antigravity/generative-ui/components/standard-catalog)
 **#90 No standard component renders; the agent answers with a plain Markdown table.**

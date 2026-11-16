@@ -17,11 +17,11 @@
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. I asked for running shoes as product cards, it should show the cards, but uh, the reply stays empty."
+   "text": "Moving on to the demo. I asked for running shoes as product cards, it should show the cards, but uh, the run fails with a Gemini four hundred error."
   },
   {
    "at": "notepad",
-   "text": "So basically, the catalog should render product cards, but the agent's render UI call has no renderer, so nothing shows."
+   "text": "So basically, the catalog should render product cards, but the agent calls an image tool instead and the model rejects it, so nothing shows."
   },
   {
    "at": "+",

@@ -869,7 +869,7 @@
     89
    ],
    "notes": [
-    "Issue: the agent calls render_ui, but no catalog component renders, the reply stays empty."
+    "Issue: no catalog component renders, the agent calls generate_image and the run fails with a Gemini 400 (multimodal function responses not supported)."
    ],
    "block": null,
    "links": [

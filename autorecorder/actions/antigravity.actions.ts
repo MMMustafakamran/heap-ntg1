@@ -76,8 +76,8 @@ export const FINDING_NOTES: Record<string, string> = {
   'gui-catalogs': [
     "catalogs page says pass ur catalog and the agent renders those components",
     "asked for 2 running shoes as product cards, the reply just stays empty",
-    "the agent calls render_ui but no renderer is registered for it",
-    "so no catalog component ever renders",
+    "agent calls generate_image instead of render_ui and the run dies,gemini 400 multimodal function responses not supported for this model",
+    "page never says which model or tools the agent needs so no catalog component ever renders",
   ].join('\n'),
   'gui-standard-catalog': [
     "standard catalog page says standardui gives u ready made components",
@@ -150,7 +150,7 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
     { text: 'resolved against the data model', caption: 'Card renders but no bound value shows (FINDINGS.md #73)' },
   ],
   'gui-surfaces': [{ text: "fallback={<ProductRow products={products} />}", caption: 'render_ui has no renderer (FINDINGS.md #87)' }],
-  'gui-catalogs': [{ text: "generativeUI={{ ui: shopUI }}", caption: 'render_ui has no renderer (FINDINGS.md #89)' }],
+  'gui-catalogs': [{ text: "generativeUI={{ ui: shopUI }}", caption: 'run fails on Gemini 400 after generate_image (FINDINGS.md #89)' }],
   'gui-standard-catalog': [{ text: "generativeUI={{ ui: standardUI }}", caption: 'render_ui has no renderer (FINDINGS.md #90)' }],
   'gui-state-and-actions': [{ text: "state: { cart: cartSchema },", caption: 'render_ui has no renderer (FINDINGS.md #91)' }],
   'gui-theming': [{ text: "\"--a2ui-color-accent\": \"#d97706\",", caption: 'render_ui has no renderer (FINDINGS.md #94)' }],
@@ -525,19 +525,23 @@ export const runVoiceAction: PageActionHandler = async (page, config, root, ctx)
   const repo = existsSync(join(root, 'frontend')) ? root : join(root, '..');
   const stub = join(repo, 'frontend', 'app', 'voice', 'voice-chat.tsx');
   const aside = stub + '.aside';
-  if (existsSync(stub)) {
-    renameSync(stub, aside);
-    try {
+  // The demo shows the verbatim page: the placeholder is moved aside for the whole demo so the real
+  // Next "Module not found" overlay is what the viewer sees (review 2026-11-16: the placeholder's own
+  // text was on camera). Pages in a shard record one at a time, so blanking the dev server for these
+  // seconds breaks no other take; the placeholder is always put back in `finally`.
+  const moved = existsSync(stub);
+  if (moved) renameSync(stub, aside);
+  try {
+    if (moved) {
       await sleep(1500);
-      await fetch('http://localhost:3040/voice').catch(() => null);
-      await sleep(2000);
-    } finally {
-      renameSync(aside, stub);
+      await page.reload().catch(() => null);
+      await page.getByText(/Module not found/i).first().waitFor({ state: 'visible', timeout: 45000 }).catch(() => {});
+      mark('error', "Module not found: Can't resolve './voice-chat'");
+      await sleep(5000);
     }
-    await sleep(2000);
-    await page.reload().catch(() => null);
-    await sleep(3000);
+    await runStandardWithFinding(page, config, root, ctx);
+  } finally {
+    if (moved && existsSync(aside)) renameSync(aside, stub);
   }
-  await runStandardWithFinding(page, config, root, ctx);
   ctx.fail("Module not found: Can't resolve './voice-chat' (page.tsx imports a file the doc never shows).");
 };
