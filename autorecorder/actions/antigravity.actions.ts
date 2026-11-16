@@ -527,7 +527,7 @@ export const runVoiceAction: PageActionHandler = async (page, config, root, ctx)
   const aside = stub + '.aside';
   // The demo shows the verbatim page: the placeholder is moved aside for the whole demo so the real
   // Next "Module not found" overlay is what the viewer sees (review 2026-11-16: the placeholder's own
-  // text was on camera). Pages in a shard record one at a time, so blanking the dev server for these
+  // text was on camera). Pages record one at a time, so blanking the dev server for these
   // seconds breaks no other take; the placeholder is always put back in `finally`.
   const moved = existsSync(stub);
   if (moved) renameSync(stub, aside);
