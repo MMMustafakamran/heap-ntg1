@@ -1,0 +1,31 @@
+{
+ "clip": "ANTIGRAVITY-react-26-ThreadsDrawer",
+ "finding": "antigravity-react 103",
+ "level": 1,
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the Threads Drawer page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the page says after a new conversation you select the first thread and its history shows again."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. The chat works and the thread shows up in the drawer, but uh, when I open that thread again, the chat just stays empty."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, picking a thread should bring back its conversation, but nothing replays, even though the headless threads page replays the same thread fine."
+  },
+  {
+   "at": "+",
+   "text": "So yeah, please take a look and fix this."
+  }
+ ]
+}

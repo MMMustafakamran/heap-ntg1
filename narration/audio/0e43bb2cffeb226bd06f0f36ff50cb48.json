@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. The chat works and the thread shows up in the drawer, but uh, when I open that thread again, the chat just stays empty.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.381,
+ "file": "0e43bb2cffeb226bd06f0f36ff50cb48.mp3",
+ "clip": "ANTIGRAVITY-react-26-ThreadsDrawer",
+ "at": "demo"
+}

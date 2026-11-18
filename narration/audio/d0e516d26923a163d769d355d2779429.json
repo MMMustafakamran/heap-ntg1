@@ -1,0 +1,9 @@
+{
+ "text": "So basically, picking a thread should bring back its conversation, but nothing replays, even though the headless threads page replays the same thread fine.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.845,
+ "file": "d0e516d26923a163d769d355d2779429.mp3",
+ "clip": "ANTIGRAVITY-react-26-ThreadsDrawer",
+ "at": "notepad"
+}

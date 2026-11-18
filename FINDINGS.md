@@ -89,6 +89,11 @@ Stack: `@copilotkit/react-core`/`runtime` 1.88.0 (npm latest, CI 2026-11-16), `@
 - **Doc:** `createGenerativeUI({ id: "acme/flights@1", extends: [standardUI], components: { Airport, Arrow } })` + `generativeUI={{ ui: appUI }}`.
 - **Result:** no Airport/Arrow UI ever shows up; runs end in an empty reply or a failed run (3 probes 2026-11-13). Same on the doc's own runtime shape (re-checked 2026-11-12).
 
+### [Threads Drawer](https://docs.copilotkit.ai/google-antigravity/prebuilt-components/copilot-threads-drawer)
+**#103 Selecting a thread in the drawer does not replay its conversation.**
+- **Doc:** "Select \"New Conversation\", then select the first thread. The chat shows its history again." Snippet verbatim (`CopilotThreadsDrawer` + `CopilotChat` in one `CopilotChatConfigurationProvider`), runtime with `CopilotKitIntelligence` (the Headless Threads page's `server.ts`, #67).
+- **Result:** the chat runs and the new thread is listed in the drawer, "New Conversation" clears the chat, but clicking the thread's row leaves the chat empty (CI 2026-11-18, checkpoint `replay` failed after 20 s). The Headless Threads page replays the same thread on the same runtime.
+
 ## Minor notes
 - #1 Quickstart: `main.py` reads `os.environ["GEMINI_API_KEY"]` but nothing loads the `.env` the page creates (no `load_dotenv`, start command has no `--env-file`): `KeyError: 'GEMINI_API_KEY'` on start. Harness starts it with `uv run --env-file .env`.
 - #2 Quickstart: `npx copilotkit@latest init --framework antigravity` fails on CLI 4.33.1 with `Unsupported framework "antigravity"`. The page's callout anticipates this.
@@ -132,9 +137,7 @@ Stack: `@copilotkit/react-core`/`runtime` 1.88.0 (npm latest, CI 2026-11-16), `@
 - #60 Headless UI: snippets are fragments: `useAgent({ agentId: "headless-simple" })` is registered in no route (the Code tab is the headless-complete demo), no `Avatar` import, `AttachmentChip` never defined; the `console.error` label says `langgraph-python:headless-simple`.
 - #62 Multimodal Attachments: Quick start uses the `agentId="my-agent"` placeholder with no note to swap in your own agent id; the snippet is a bare JSX fragment.
 - #67 Threads Drawer: the page shows no runtime code for the Intelligence connection it needs (only a signup link).
-- #68 Headless Threads: `App` passes `onSelectThread` to `ThreadSidebar`, which takes no props and never calls it, so no row can be selected; with a one-line `onClick` (harness) switching works.
-- #69 Headless Threads: `server.ts` calls `verifyAppSession`, never defined or imported.
-- #70 Headless Threads: `useThreads({ agentId: "my-agent" })` placeholder.
+- #69 Headless Threads: `server.ts` uses `agent` and calls `verifyAppSession`, neither defined nor imported, and shows no route handler.
 - #74 JSON Render: no install command; `@json-render/react` and `@json-render/core` 0.18.0 (with Zod 4) are named only in prose.
 - #75 Hashbrown: `@hashbrownai/core` / `@hashbrownai/react` are beta (0.5.0-beta.4).
 - #78 Components as Tools: `gen_ui_tool_based.py` imports `build` from the unpublished `agents._common`.

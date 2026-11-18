@@ -618,15 +618,24 @@
    "child": true,
    "docPath": "prebuilt-components/copilot-threads-drawer",
    "reachable": "sidebar",
-   "status": "N/A",
+   "status": "❌",
    "findings": [
+    103,
     67
    ],
    "notes": [
-    "Note: needs the CopilotKit Intelligence platform (threads)."
+    "Issue: the drawer lists the new thread and New Conversation works, but selecting the thread again does not replay its conversation, the chat stays empty."
    ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "ANTIGRAVITY-react-26-ThreadsDrawer",
+     "loom": null,
+     "narration": "narration/scripts/ANTIGRAVITY-react-26-ThreadsDrawer.json",
+     "filmed": null
+    }
+   ],
    "review": {
     "verdict": null,
     "approvedAt": null,
@@ -642,17 +651,22 @@
    "child": true,
    "docPath": "headless-threads",
    "reachable": "sidebar",
-   "status": "N/A",
+   "status": "✅",
    "findings": [
-    68,
-    69,
-    70
+    69
    ],
    "notes": [
-    "Note: needs the CopilotKit Intelligence platform (threads)."
+    "Note: server.ts uses agent and verifyAppSession without defining them (stubbed in the harness)."
    ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Headless Threads - JS",
+     "clip": "ANTIGRAVITY-react-27-HeadlessThreads",
+     "loom": null,
+     "filmed": "2026-11-18"
+    }
+   ],
    "review": {
     "verdict": null,
     "approvedAt": null,
