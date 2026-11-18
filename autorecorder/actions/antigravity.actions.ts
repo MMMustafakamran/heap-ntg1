@@ -18,8 +18,7 @@ export const FINDING_NOTES: Record<string, string> = {
     "drawer lists the new thread and new conversation clears the chat,but clicking the thread back the chat just stays empty",
     "no history replays,the headless threads page replays the same thread on the same runtime fine",
     "page shows no runtime code at all,only a signup link,so i used the headless page server.ts with intelligence",
-  ].join('
-'),
+  ].join('\n'),
   'rendering-in-app': [
     "page says the agent reads the canvas state on its next turn",
     "the canvas shows, but asked about my canvas title and done items the agent never knows and asks what canvas or looks for files",
