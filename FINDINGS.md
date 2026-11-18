@@ -89,11 +89,6 @@ Stack: `@copilotkit/react-core`/`runtime` 1.88.0 (npm latest, CI 2026-11-16), `@
 - **Doc:** `createGenerativeUI({ id: "acme/flights@1", extends: [standardUI], components: { Airport, Arrow } })` + `generativeUI={{ ui: appUI }}`.
 - **Result:** no Airport/Arrow UI ever shows up; runs end in an empty reply or a failed run (3 probes 2026-11-13). Same on the doc's own runtime shape (re-checked 2026-11-12).
 
-### [Threads Drawer](https://docs.copilotkit.ai/google-antigravity/prebuilt-components/copilot-threads-drawer)
-**#103 Selecting a thread in the drawer does not replay its conversation.**
-- **Doc:** "Select \"New Conversation\", then select the first thread. The chat shows its history again." Snippet verbatim (`CopilotThreadsDrawer` + `CopilotChat` in one `CopilotChatConfigurationProvider`), runtime with `CopilotKitIntelligence` (the Headless Threads page's `server.ts`, #67).
-- **Result:** the chat runs and the new thread is listed in the drawer, "New Conversation" clears the chat, but clicking the thread's row leaves the chat empty (CI 2026-11-18, checkpoint `replay` failed after 20 s). The Headless Threads page replays the same thread on the same runtime.
-
 ## Minor notes
 - #1 Quickstart: `main.py` reads `os.environ["GEMINI_API_KEY"]` but nothing loads the `.env` the page creates (no `load_dotenv`, start command has no `--env-file`): `KeyError: 'GEMINI_API_KEY'` on start. Harness starts it with `uv run --env-file .env`.
 - #2 Quickstart: `npx copilotkit@latest init --framework antigravity` fails on CLI 4.33.1 with `Unsupported framework "antigravity"`. The page's callout anticipates this.
