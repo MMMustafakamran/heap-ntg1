@@ -17,9 +17,11 @@ export const SKIP_RECORDING: Record<string, string> = {
   'tool-rendering-default':
     'Not a separate doc page: the default catch-all is a section of generative-ui/tool-rendering, whose row links the ToolRendering clip (no assignment.json row for this clip).',
   'use-interrupt':
-    'N/A: the rendered page says "Not supported on Google Antigravity: Google Antigravity doesn\'t support Human in the Loop: Interrupts" (owner rule 2026-11-11: banner pages get no test and no clip).',
+    'N/A: the rendered page says "Not available for Google Antigravity yet. The code on this page comes from the showcase\'s gen-ui-interrupt demo, and Google Antigravity doesn\'t have it yet." (owner rule 2026-11-11: banner pages get no test and no clip; re-checked 2026-11-18).',
   'headless-interrupts':
-    'N/A: the rendered page says "Not supported on Google Antigravity: Google Antigravity doesn\'t support Human in the Loop: Headless Interrupts" (owner rule 2026-11-11: banner pages get no test and no clip).',
+    'N/A: the rendered page says "Not available for Google Antigravity yet. The code on this page comes from the showcase\'s interrupt-headless demo, and Google Antigravity doesn\'t have it yet." (owner rule 2026-11-11: banner pages get no test and no clip; re-checked 2026-11-18).',
+  'state-rendering':
+    'Gone: generative-ui/state-rendering was removed from the docs on 2026-11-18 (308 redirect to generative-ui/tool-based, no State Rendering content left). Kept in PAGES only so later clip numbers stay the same.',
 };
 
 export const PAGES = definePages([
@@ -247,4 +249,7 @@ export const PAGES = definePages([
   { id: 'json-render', name: 'JSON Render', videoName: 'JSONRender', docPath: 'generative-ui/json-render', route: 'generative-ui/json-render', ideFile: 'frontend/app/generative-ui/json-render/json-render-renderer.tsx', startLine: 1, endLine: 50, extraTabs: [{ filePath: 'backend/agents/byoc_json_render.py', startLine: 1, endLine: 60 }], prompt: 'Show me total revenue with a bar chart of revenue by region.', waitAfterPromptMs: 6000 },
   { id: 'hashbrown', name: 'Hashbrown', videoName: 'Hashbrown', docPath: 'generative-ui/hashbrown', route: 'generative-ui/hashbrown', ideFile: 'frontend/app/generative-ui/hashbrown/hashbrown-renderer.tsx', startLine: 120, endLine: 190, extraTabs: [{ filePath: 'backend/agents/byoc_hashbrown.py', startLine: 1, endLine: 20 }], prompt: 'Show me a Q4 sales dashboard with a revenue pie chart and a monthly bar chart.', waitAfterPromptMs: 6000 },
   { id: 'open-generative-ui', name: 'Open Generative UI', videoName: 'OpenGenerativeUI', docPath: 'generative-ui/open-generative-ui', route: 'generative-ui/open-generative-ui', ideFile: 'frontend/app/generative-ui/open-generative-ui/page.tsx', startLine: 1, endLine: 46, extraTabs: [{ filePath: 'frontend/app/api/copilotkit-ogui/route.ts', startLine: 1, endLine: 60 }], prompt: 'build me a simple greeting card', waitAfterPromptMs: 15000, timeouts: { replyStartMs: 120000 } },
+  // 2026-11-18: new in-content pages (Styling is linked from A2UI, Advanced from Fixed Schema). Appended at the end so earlier clip numbers stay the same.
+  { id: 'a2ui-styling', name: 'A2UI - Styling', videoName: 'A2UIStyling', docPath: 'generative-ui/a2ui/styling', route: 'generative-ui/a2ui/styling', ideFile: 'frontend/app/generative-ui/a2ui/styling/a2ui/theme.css', startLine: 1, endLine: 31, extraTabs: [{ filePath: 'frontend/app/generative-ui/a2ui/styling/layout.tsx', startLine: 1, endLine: 7 }, { filePath: 'frontend/app/generative-ui/a2ui/styling/page.tsx', startLine: 1, endLine: 26 }], prompt: 'Show me a United flight from SFO to JFK for $289.', waitAfterPromptMs: 6000, timeouts: { replyStartMs: 120000 } },
+  { id: 'a2ui-advanced', name: 'A2UI - Advanced', videoName: 'A2UIAdvanced', docPath: 'generative-ui/a2ui/advanced', route: 'generative-ui/a2ui/advanced', ideFile: 'frontend/app/generative-ui/a2ui/advanced/page.tsx', startLine: 1, endLine: 23, extraTabs: [{ filePath: 'frontend/app/generative-ui/a2ui/advanced/components/a2ui-progress.tsx', startLine: 1, endLine: 13 }], prompt: 'Show me a quick sales KPI dashboard with revenue, deals and win rate.', waitAfterPromptMs: 10000, timeouts: { replyStartMs: 120000 } },
 ]);
