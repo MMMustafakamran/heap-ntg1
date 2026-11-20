@@ -490,19 +490,20 @@
    "child": true,
    "docPath": "custom-look-and-feel/reasoning-messages",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
     61
    ],
    "notes": [
-    "Note: the page only names gpt-6-luna; the Antigravity agent's model comes from agents/_common.py in the linked showcase source. Tested with the OpenAI fallback (Gemini key out of credit)."
+    "Issue: no reasoning message renders, even on the page's own reasoning.py; the page names only gpt-6-luna (not usable with Antigravity) and never says which Gemini model or thinking setting emits reasoning."
    ],
    "block": null,
    "links": [
     {
-     "text": "Reasoning Messages - JS",
+     "text": "Issue",
      "clip": "ANTIGRAVITY-react-40-ReasoningMessages",
      "loom": "https://www.loom.com/share/0bad103d4c5a4ffebd407e414224243b",
+     "narration": "narration/scripts/ANTIGRAVITY-react-40-ReasoningMessages.json",
      "filmed": "2026-11-18"
     }
    ],
@@ -584,19 +585,20 @@
    "child": true,
    "docPath": "generative-ui/reasoning",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
     64
    ],
    "notes": [
-    "Note: useReasoningCustomSuggestions and agents._common are only in the linked showcase source. Tested with the OpenAI fallback (Gemini key out of credit)."
+    "Issue: no reasoning block renders; useReasoningCustomSuggestions is never defined and the backend's reasoning model comes from the unpublished agents._common."
    ],
    "block": null,
    "links": [
     {
-     "text": "Reasoning - JS",
+     "text": "Issue",
      "clip": "ANTIGRAVITY-react-25-Reasoning",
      "loom": "https://www.loom.com/share/7d72bcd6b46b4bdbb3e66538524317c7",
+     "narration": "narration/scripts/ANTIGRAVITY-react-25-Reasoning.json",
      "filmed": "2026-11-18"
     }
    ],
@@ -1347,20 +1349,21 @@
    "child": true,
    "docPath": "shared-state/rendering-in-app",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
     79,
     80
    ],
    "notes": [
-    "Note: the backend comes from the linked Shared State page (experimental_app_state); this page shows only the frontend."
+    "Issue: the canvas shows, but the agent never sees its state: asked about the canvas title and done items it can't answer. The page shows no backend and never says the agent needs get_shared_state."
    ],
    "block": null,
    "links": [
     {
-     "text": "Render agent state in your app - JS",
+     "text": "Issue",
      "clip": "ANTIGRAVITY-react-20-RenderingInApp",
      "loom": "https://www.loom.com/share/53894fca8eaa48bfafd69664acc98889",
+     "narration": "narration/scripts/ANTIGRAVITY-react-20-RenderingInApp.json",
      "filmed": "2026-11-18"
     }
    ],

@@ -1,0 +1,36 @@
+{
+ "clip": "ANTIGRAVITY-react-40-ReasoningMessages",
+ "finding": "antigravity-react 61",
+ "level": 1,
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the Reasoning Messages page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the page says models show their reasoning, but it never says which model to use."
+  },
+  {
+   "at": "evidence#2",
+   "text": "And this agent's backend takes its model from an agents common module, which isn't on the page."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked it to think step by step, it should show a reasoning message, but uh, it just gives the plain answer."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the doc says reasoning shows up in the chat, but nothing shows, because the backend needs a common module that's never published."
+  },
+  {
+   "at": "+",
+   "text": "So yeah, this is the issue, kindly fix it."
+  }
+ ],
+ "page": "clf-reasoning-messages"
+}
