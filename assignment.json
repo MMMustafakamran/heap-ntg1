@@ -775,7 +775,8 @@
    "group": "Controlled",
    "child": true,
    "docPath": "generative-ui/state-rendering",
-   "reachable": "sidebar",
+   "reachable": "none",
+   "removed": "2026-11-20: doc page gone (404) in the drift check; dropped from report and recording (DRIFT.md section 3)",
    "status": "✅",
    "findings": [
     39
