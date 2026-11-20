@@ -183,7 +183,7 @@
     40
    ],
    "notes": [
-    "Note: `copilotkit init --framework antigravity` fails (unsupported framework); copying the starter from the CopilotKit repo works"
+    "Note: copilotkit init --framework antigravity fails; copy the starter from the repo."
    ],
    "block": null,
    "links": [],
@@ -211,7 +211,7 @@
     40
    ],
    "notes": [
-    "Note: `main.py` reads GEMINI_API_KEY but nothing loads `.env`; start with `uv run --env-file .env`"
+    "Note: main.py never loads .env; start it with uv run --env-file .env."
    ],
    "block": null,
    "links": [
@@ -242,7 +242,7 @@
     52
    ],
    "notes": [
-    "Note: the page imports useAgenticChatSuggestions from ./suggestions, which it never shows."
+    "Note: ./suggestions is imported but never shown."
    ],
    "block": null,
    "links": [
@@ -371,7 +371,7 @@
     57
    ],
    "notes": [
-    "Note: the CSS variables snippet imports from @copilotkit/react-ui (v1, never installed) and the icons snippet uses placeholder components."
+    "Note: CSS snippet imports @copilotkit/react-ui (v1, not installed); icons are placeholders."
    ],
    "block": null,
    "links": [
@@ -403,7 +403,7 @@
     59
    ],
    "notes": [
-    "Note: the \"two levels\" snippet uses CustomToolbar and CustomCopyButton, defined nowhere."
+    "Note: CustomToolbar and CustomCopyButton are never defined."
    ],
    "block": null,
    "links": [
@@ -463,7 +463,7 @@
     60
    ],
    "notes": [
-    "Note: the snippets are fragments (no component, `visible`, Avatar/cn/AttachmentChip never shown) and agent \"headless-simple\" is never registered; recorded with harness stand-ins."
+    "Note: snippets are fragments; agent \"headless-simple\" is never registered."
    ],
    "block": null,
    "links": [
@@ -495,7 +495,7 @@
     61
    ],
    "notes": [
-    "Issue: no reasoning message renders, even on the page's own reasoning.py; the page names only gpt-6-luna (not usable with Antigravity) and never says which Gemini model or thinking setting emits reasoning."
+    "Issue: no reasoning message renders; the page never says which Gemini model or setting gives reasoning."
    ],
    "block": null,
    "links": [
@@ -527,7 +527,7 @@
     62
    ],
    "notes": [
-    "Note: the snippet uses agentId=\"my-agent\", u have to swap in your own agent id."
+    "Note: swap agentId=\"my-agent\" for your own agent id."
    ],
    "block": null,
    "links": [
@@ -559,7 +559,7 @@
     63
    ],
    "notes": [
-    "Note: page.tsx imports ./voice-chat, which is only in the linked source; the page says to render CopilotChat in its place, and the route's /voice agent is never shown (any agent works)."
+    "Note: voice-chat.tsx isn't on the page; use CopilotChat as the page says."
    ],
    "block": null,
    "links": [
@@ -590,7 +590,7 @@
     64
    ],
    "notes": [
-    "Issue: no reasoning block renders; useReasoningCustomSuggestions is never defined and the backend's reasoning model comes from the unpublished agents._common."
+    "Issue: no reasoning block renders; useReasoningCustomSuggestions is never defined."
    ],
    "block": null,
    "links": [
@@ -652,7 +652,7 @@
     69
    ],
    "notes": [
-    "Note: server.ts uses agent and verifyAppSession without defining them (stubbed in the harness)."
+    "Note: server.ts uses agent and verifyAppSession without defining them."
    ],
    "block": null,
    "links": [
@@ -687,7 +687,7 @@
     11
    ],
    "notes": [
-    "Note: ./background and ./suggestions are imported but never shown; the agent snippet imports the unpublished agents._common."
+    "Note: ./background, ./suggestions and agents._common are never shown."
    ],
    "block": null,
    "links": [
@@ -719,7 +719,7 @@
     101
    ],
    "notes": [
-    "Note: ./pie-chart and ./suggestions are imported but never shown; the backend imports the unpublished agents._common."
+    "Note: ./pie-chart, ./suggestions and agents._common are never shown."
    ],
    "block": null,
    "links": [
@@ -751,7 +751,7 @@
     36
    ],
    "notes": [
-    "Note: prose says roll_dice, the tool is roll_d20; the backend imports the unpublished agents._common."
+    "Note: prose says roll_dice but the tool is roll_d20."
    ],
    "block": null,
    "links": [
@@ -784,7 +784,7 @@
     39
    ],
    "notes": [
-    "Note: set_steps uses experimental_get_state/experimental_set_state without imports."
+    "Note: set_steps uses experimental_get_state/set_state without imports."
    ],
    "block": null,
    "links": [
@@ -816,7 +816,7 @@
     42
    ],
    "notes": [
-    "Issue: the page's only setup is an OpenAI/TanStack BuiltInAgent; with the existing Antigravity agent (Do step 3 only) no component renders, just a plain text reply."
+    "Issue: only a BuiltInAgent setup is shown; with Antigravity no component renders."
    ],
    "block": null,
    "links": [
@@ -848,7 +848,7 @@
     88
    ],
    "notes": [
-    "Issue: the agent calls render_ui but nothing renders, neither in the page target nor in the chat. Same problem as the Components and surfaces page."
+    "Issue: the agent calls render_ui but nothing renders, in the page or the chat."
    ],
    "block": null,
    "links": [
@@ -880,7 +880,7 @@
     89
    ],
    "notes": [
-    "Issue: no Antigravity agent setup on the page (same as Components and surfaces); with the existing agent no catalog component renders."
+    "Issue: no Antigravity setup on the page; no catalog component renders."
    ],
    "block": null,
    "links": [
@@ -912,7 +912,7 @@
     90
    ],
    "notes": [
-    "Issue: no standard component renders, the agent answers with a plain markdown table. Same as the Components and surfaces page."
+    "Issue: no standard component renders; the agent replies with a plain markdown table."
    ],
    "block": null,
    "links": [
@@ -945,7 +945,7 @@
     92
    ],
    "notes": [
-    "Issue: no Antigravity agent setup on the page (same as Components and surfaces); no product card ever renders, the run ends with an empty reply or fails."
+    "Issue: no Antigravity setup on the page; no product card renders."
    ],
    "block": null,
    "links": [
@@ -1010,7 +1010,7 @@
     96
    ],
    "notes": [
-    "Issue: no Antigravity agent setup on the page (only LangGraph CopilotKitMiddleware); with the Antigravity agent no generated UI shows up, just a plain text answer or a failed run."
+    "Issue: only a LangGraph middleware setup; with Antigravity no generated UI shows."
    ],
    "block": null,
    "links": [
@@ -1043,7 +1043,7 @@
     98
    ],
    "notes": [
-    "Issue: no a2ui block or generated UI ever shows up (empty reply, failed run, or html files instead). The page doesn't say how to pass the context to an Antigravity agent."
+    "Issue: no a2ui block renders; the page never says how to pass context to Antigravity."
    ],
    "block": null,
    "links": [
@@ -1076,7 +1076,7 @@
     100
    ],
    "notes": [
-    "Issue: render_ui gives nothing on Antigravity, same as Components and surfaces; no Airport/Arrow UI renders."
+    "Issue: render_ui renders nothing on Antigravity; no Airport/Arrow UI."
    ],
    "block": null,
    "links": [
@@ -1108,7 +1108,7 @@
     71
    ],
    "notes": [
-    "Note: myCatalog and the agent come from the linked Dynamic Schema page; the dashboard renders, with a \"Couldn't generate the UI\" card above it (same render error as Dynamic Schema, covered on that row)."
+    "Note: catalog and agent come from the linked Dynamic Schema page."
    ],
    "block": null,
    "links": [
@@ -1139,7 +1139,7 @@
     72
    ],
    "notes": [
-    "Issue: no dashboard renders; the chat shows \"A2UI render error: Cannot read properties of undefined (reading 'map')\"."
+    "Issue: no dashboard renders, just an A2UI render error (reading 'map')."
    ],
    "block": null,
    "links": [
@@ -1171,7 +1171,7 @@
     73
    ],
    "notes": [
-    "Issue: the flight card renders but stays empty: no airline, airports or price, only \"Flight Details\" and the Book button."
+    "Issue: the flight card renders empty, no airline, airports or price."
    ],
    "block": null,
    "links": [
@@ -1263,7 +1263,7 @@
     44
    ],
    "notes": [
-    "Note: the \"with Intelligence\" example uses a BuiltInAgent with gpt-6-luna, not Antigravity."
+    "Note: the Intelligence example uses a BuiltInAgent, not Antigravity."
    ],
    "block": null,
    "links": [
@@ -1323,7 +1323,7 @@
     25
    ],
    "notes": [
-    "Note: `set_notes` uses `experimental_get_state`/`experimental_set_state` without importing them from `ag_ui_antigravity`; `build()` comes from the unpublished agents._common."
+    "Note: set_notes uses experimental state helpers without importing them."
    ],
    "block": null,
    "links": [
@@ -1355,7 +1355,7 @@
     80
    ],
    "notes": [
-    "Note: the backend comes from the linked Shared State page (experimental_app_state); this page shows only the frontend."
+    "Note: backend comes from the linked Shared State page."
    ],
    "block": null,
    "links": [
@@ -1384,7 +1384,7 @@
    "status": "N/A",
    "findings": [],
    "notes": [
-    "Note: Not available for Google Antigravity (the page says \"Not supported on Google Antigravity: Google Antigravity doesn't support Shared State: Streaming\")"
+    "Note: not available, the page says Google Antigravity doesn't support it."
    ],
    "block": null,
    "links": [],
@@ -1409,7 +1409,7 @@
     83
    ],
    "notes": [
-    "Note: app_context.py imports build from the unpublished agents._common, and ./demo-layout and ./suggestions are never shown."
+    "Note: agents._common, ./demo-layout and ./suggestions are never shown."
    ],
    "block": null,
    "links": [
@@ -1448,7 +1448,7 @@
     47
    ],
    "notes": [
-    "Note: hitl.py imports build from the unpublished agents._common."
+    "Note: hitl.py imports build from agents._common, which is never shown."
    ],
    "block": null,
    "links": [
@@ -1477,7 +1477,7 @@
    "status": "N/A",
    "findings": [],
    "notes": [
-    "Note: Not available for Google Antigravity (the page says \"Not supported on Google Antigravity: Google Antigravity doesn't support Human in the Loop: Interrupts\")"
+    "Note: not available, the page says Google Antigravity doesn't support it."
    ],
    "block": null,
    "links": [],
@@ -1498,7 +1498,7 @@
    "status": "N/A",
    "findings": [],
    "notes": [
-    "Note: Not available for Google Antigravity (the page says \"Not supported on Google Antigravity: Google Antigravity doesn't support Human in the Loop: Headless Interrupts\")"
+    "Note: not available, the page says Google Antigravity doesn't support it."
    ],
    "block": null,
    "links": [],
@@ -1523,7 +1523,7 @@
     86
    ],
    "notes": [
-    "Note: only the useHumanInTheLoop approval card can be tried; the useInterrupt variant has no backend shown for Antigravity."
+    "Note: only the useHumanInTheLoop card works; useInterrupt has no Antigravity backend."
    ],
    "block": null,
    "links": [
@@ -1587,7 +1587,7 @@
     49
    ],
    "notes": [
-    "Note: the install step leaves out httpx, which subagents.py imports."
+    "Note: install step leaves out httpx."
    ],
    "block": null,
    "links": [
