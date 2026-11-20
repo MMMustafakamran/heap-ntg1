@@ -1106,7 +1106,7 @@
     71
    ],
    "notes": [
-    "Note: myCatalog and the agent come from the linked Dynamic Schema page; the failure is covered on that row."
+    "Note: myCatalog and the agent come from the linked Dynamic Schema page; the dashboard renders, with a \"Couldn't generate the UI\" card above it (same render error as Dynamic Schema, covered on that row)."
    ],
    "block": null,
    "links": [
