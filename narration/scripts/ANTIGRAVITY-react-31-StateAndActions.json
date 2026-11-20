@@ -1,36 +1,36 @@
 {
- "clip": "ANTIGRAVITY-react-31-StateAndActions",
- "finding": "antigravity-react 91",
- "level": 1,
- "segments": [
-  {
-   "at": "doc",
-   "text": "Ok so this is the State and actions page for Google Antigravity, and I'm reporting a problem on this page."
-  },
-  {
-   "at": "evidence",
-   "text": "So this is the problem, umm, the cart state is set up here, but no card ever renders to use it."
-  },
-  {
-   "at": "ide",
-   "text": "This is my project, I've implemented the exact code from the doc."
-  },
-  {
-   "at": "+",
-   "text": "This part wasn't on the page, the merged catalog and its imports, so I put them together myself."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. I asked for the trail runner card, it should show a product card, but uh, the reply is empty or the run fails."
-  },
-  {
-   "at": "notepad",
-   "text": "So basically, you should get a card with add to cart, there's no card at all, and the page never shows the pieces together."
-  },
-  {
-   "at": "+",
-   "text": "So umm, this one needs fixing, please look into it."
-  }
- ],
- "page": "gui-state-and-actions"
+  "clip": "ANTIGRAVITY-react-31-StateAndActions",
+  "finding": "antigravity-react 91",
+  "level": 1,
+  "segments": [
+    {
+      "at": "doc",
+      "text": "Ok so this is the State and actions page for Google Antigravity, and I'm reporting a problem on this page."
+    },
+    {
+      "at": "evidence",
+      "text": "So this is the problem, umm, the cart state is set up here, but no card ever renders to use it."
+    },
+    {
+      "at": "ide",
+      "text": "This is my project, I've implemented the exact code from the doc."
+    },
+    {
+      "at": "+",
+      "text": "These parts weren't on the page, the merged catalog and a small cart stand-in, so I added them myself."
+    },
+    {
+      "at": "demo",
+      "text": "Moving on to the demo. I asked for the trail runner card, it should show a product card, but uh, the reply is empty or the run fails."
+    },
+    {
+      "at": "notepad",
+      "text": "So basically, you should get a card with add to cart, there's no card at all, and the page never shows the pieces together."
+    },
+    {
+      "at": "+",
+      "text": "So umm, this one needs fixing, please look into it."
+    }
+  ],
+  "page": "gui-state-and-actions"
 }
