@@ -276,6 +276,8 @@ jobs:
       # again (2026-11-12): pool keys, else GEMINI_API_KEY; OpenAI stays the last-resort fallback.
       GEMINI_POOL_KEYS: ${{ secrets.GEMINI_POOL_KEYS || secrets.GEMINI_API_KEY }}
       GEMINI_POOL_OPENAI_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # HARNESS: the Voice page's transcription-service.ts reads OPENAI_TRANSCRIPTION_API_KEY (the page never says to set it)
+      OPENAI_TRANSCRIPTION_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       # The agents' own overrides (backend/agents/_common.py): the defaults live under /data,
       # which a GitHub runner can't write. Not a doc change.
       ANTIGRAVITY_WORKSPACE: /tmp/antigravity/ws
@@ -456,6 +458,8 @@ jobs:
       # again (2026-11-12): pool keys, else GEMINI_API_KEY; OpenAI stays the last-resort fallback.
       GEMINI_POOL_KEYS: ${{ secrets.GEMINI_POOL_KEYS || secrets.GEMINI_API_KEY }}
       GEMINI_POOL_OPENAI_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # HARNESS: the Voice page's transcription-service.ts reads OPENAI_TRANSCRIPTION_API_KEY (the page never says to set it)
+      OPENAI_TRANSCRIPTION_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       # The agents' own overrides (backend/agents/_common.py): the defaults live under /data,
       # which a GitHub runner can't write. Not a doc change.
       ANTIGRAVITY_WORKSPACE: /tmp/antigravity/ws
