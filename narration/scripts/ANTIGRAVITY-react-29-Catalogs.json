@@ -1,32 +1,32 @@
 {
- "clip": "ANTIGRAVITY-react-29-Catalogs",
- "finding": "antigravity-react 89",
- "level": 1,
- "segments": [
-  {
-   "at": "doc",
-   "text": "Ok so this is the Catalogs page for Google Antigravity, and I'm reporting a problem on this page."
-  },
-  {
-   "at": "evidence",
-   "text": "So this is the problem, the shop catalog is passed in like this, umm, but the agent can't render any of it."
-  },
-  {
-   "at": "ide",
-   "text": "This is my project, I've implemented the exact code from the doc."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. I asked for running shoes as product cards, it should show the cards, but uh, the run fails with a Gemini four hundred error."
-  },
-  {
-   "at": "notepad",
-   "text": "So basically, the catalog should render product cards, but the agent calls an image tool instead and the model rejects it, so nothing shows."
-  },
-  {
-   "at": "+",
-   "text": "So yeah, please take a look and fix this."
-  }
- ],
- "page": "gui-catalogs"
+  "clip": "ANTIGRAVITY-react-29-Catalogs",
+  "finding": "antigravity-react 89",
+  "level": 1,
+  "segments": [
+    {
+      "at": "doc",
+      "text": "Ok so this is the Catalogs page for Google Antigravity, and I'm reporting a problem on this page."
+    },
+    {
+      "at": "evidence",
+      "text": "So this is the problem, the shop catalog is passed in like this, umm, but the agent can't render any of it."
+    },
+    {
+      "at": "ide",
+      "text": "This is my project, I've implemented the exact code from the doc."
+    },
+    {
+      "at": "demo",
+      "text": "Moving on to the demo. I asked for running shoes as product cards, it should show the cards, but uh, no catalog component ever renders."
+    },
+    {
+      "at": "notepad",
+      "text": "So basically, the catalog should render product cards, but the page never shows an Antigravity agent setup, only other agents, so nothing renders."
+    },
+    {
+      "at": "+",
+      "text": "So yeah, please take a look and fix this."
+    }
+  ],
+  "page": "gui-catalogs"
 }
