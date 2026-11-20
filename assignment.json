@@ -816,7 +816,7 @@
     42
    ],
    "notes": [
-    "Issue: \"Do step 3 only\" with the Antigravity agent renders no component; the agent answers in plain text."
+    "Issue: the page's only setup is an OpenAI/TanStack BuiltInAgent; with the existing Antigravity agent (Do step 3 only) no component renders, just a plain text reply."
    ],
    "block": null,
    "links": [
@@ -880,7 +880,7 @@
     89
    ],
    "notes": [
-    "Issue: no catalog component renders, the agent calls generate_image and the run fails with a Gemini 400 (multimodal function responses not supported)."
+    "Issue: no Antigravity agent setup on the page (same as Components and surfaces); with the existing agent no catalog component renders."
    ],
    "block": null,
    "links": [
@@ -945,7 +945,7 @@
     92
    ],
    "notes": [
-    "Issue: no product card ever renders; the run ends with an empty reply or fails."
+    "Issue: no Antigravity agent setup on the page (same as Components and surfaces); no product card ever renders, the run ends with an empty reply or fails."
    ],
    "block": null,
    "links": [
@@ -1076,7 +1076,7 @@
     100
    ],
    "notes": [
-    "Issue: no Airport/Arrow UI renders; the run ends with an empty reply or fails."
+    "Issue: render_ui gives nothing on Antigravity, same as Components and surfaces; no Airport/Arrow UI renders."
    ],
    "block": null,
    "links": [
@@ -1103,20 +1103,19 @@
    "child": true,
    "docPath": "generative-ui/a2ui",
    "reachable": "sidebar",
-   "status": "❌",
+   "status": "✅",
    "findings": [
     71
    ],
    "notes": [
-    "Issue: the page only shows fragments; myCatalog is never defined and no agent is named, and with the guessed setup no A2UI dashboard renders."
+    "Note: myCatalog and the agent come from the linked Dynamic Schema page; the failure is covered on that row."
    ],
    "block": null,
    "links": [
     {
-     "text": "Issue",
+     "text": "A2UI - JS",
      "clip": "ANTIGRAVITY-react-41-A2UI",
      "loom": "https://www.loom.com/share/c13ea58573684f39ab4f07b95850c818",
-     "narration": "narration/scripts/ANTIGRAVITY-react-41-A2UI.json",
      "filmed": "2026-11-18"
     }
    ],

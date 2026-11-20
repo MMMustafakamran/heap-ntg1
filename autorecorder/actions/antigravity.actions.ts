@@ -28,8 +28,8 @@ export const FINDING_NOTES: Record<string, string> = {
   components: [
     "page says already have copilotkit running, do step 3 only, runtime needs no change",
     "asked to compare starter team and enterprise plans, no standardui component renders, just text",
-    "the walkthrough on the page is tanstack openai, not antigravity",
-    "and the page never names the antigravity agent, so i had to add the agent id myself",
+    "the only setup on the page is a tanstack openai builtinagent, not antigravity",
+    "so with the existing antigravity agent, do step 3 only, nothing renders",
   ].join('\n'),
   subagents: [
     "page says the supervisor delegates to sub agents and the log shows it",
@@ -55,12 +55,6 @@ export const FINDING_NOTES: Record<string, string> = {
     "usereasoningcustomsuggestions is imported but never defined, only the default hook is shown",
     "backend reasoning.py needs reasoning_model from agents._common, not published",
   ].join('\n'),
-  a2ui: [
-    "a2ui page says pass ur catalog and the agent renders a2ui surfaces",
-    "asked for a kpi dashboard, no dashboard ever renders, only text or an error",
-    "the page only has fragments, mycatalog is never defined and no agent is named",
-    "so i had to guess the setup and it still doesnt render",
-  ].join('\n'),
   'a2ui-dynamic-schema': [
     "dynamic schema page says thats all the default path needs",
     "asked for a sales kpi dashboard, no dashboard shows and the chat shows an a2ui render error",
@@ -82,8 +76,8 @@ export const FINDING_NOTES: Record<string, string> = {
   'gui-catalogs': [
     "catalogs page says pass ur catalog and the agent renders those components",
     "asked for 2 running shoes as product cards, the reply just stays empty",
-    "agent calls generate_image instead of render_ui and the run dies,gemini 400 multimodal function responses not supported for this model",
-    "page never says which model or tools the agent needs so no catalog component ever renders",
+    "with the existing antigravity agent no catalog component renders",
+    "the page has no antigravity agent setup at all, same as the components and surfaces page",
   ].join('\n'),
   'gui-standard-catalog': [
     "standard catalog page says standardui gives u ready made components",
@@ -95,7 +89,7 @@ export const FINDING_NOTES: Record<string, string> = {
     "state and actions page says u get a product card with cart state and add to cart",
     "asked for the trail runner card, no card ever shows up, the reply is empty or the run fails",
     "so the cart and the action cant be tried at all",
-    "the page never shows the catalog parts together or their imports",
+    "page has no antigravity agent setup, same as components and surfaces, so nothing renders",
   ].join('\n'),
   'gui-theming': [
     "theming page says these a2ui colors style the generated ui",
@@ -118,8 +112,7 @@ export const FINDING_NOTES: Record<string, string> = {
   'gui-from-a2ui': [
     "adopt from a2ui page says the airport and arrow components render in the chat",
     "asked for my flight sfo to jfk, the reply is empty or the run fails, no airport or arrow ui shows",
-    "the page leaves out the zod import",
-    "and render_ui has no renderer, so nothing can render",
+    "render_ui gives nothing on antigravity, same as the components and surfaces page",
   ].join('\n'),
 };
 
@@ -149,9 +142,6 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
     { text: 'useReasoningCustomSuggestions();', caption: 'Never defined: the only suggestions.ts shown defines the default hook (FINDINGS.md #64)' },
     { text: 'const AGENT_ID = "reasoning-custom";', caption: 'Backed by reasoning.py, which needs the unpublished agents._common.REASONING_MODEL' },
   ],
-  a2ui: [
-    { text: 'a2ui={{ catalog: myCatalog }}', caption: 'myCatalog never defined, no agent named (FINDINGS.md #71)' },
-  ],
   'a2ui-dynamic-schema': [
     { text: 'That is all the default path needs.', caption: 'Wired as shown; A2UI render error instead of a dashboard (FINDINGS.md #72)' },
   ],
@@ -159,13 +149,13 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
     { text: 'resolved against the data model', caption: 'Card renders but no bound value shows (FINDINGS.md #73)' },
   ],
   'gui-surfaces': [{ text: "fallback={<ProductRow products={products} />}", caption: 'render_ui has no renderer (FINDINGS.md #87)' }],
-  'gui-catalogs': [{ text: "generativeUI={{ ui: shopUI }}", caption: 'run fails on Gemini 400 after generate_image (FINDINGS.md #89)' }],
+  'gui-catalogs': [{ text: "generativeUI={{ ui: shopUI }}", caption: 'no Antigravity agent setup on the page (FINDINGS.md #89)' }],
   'gui-standard-catalog': [{ text: "generativeUI={{ ui: standardUI }}", caption: 'render_ui has no renderer (FINDINGS.md #90)' }],
   'gui-state-and-actions': [{ text: "state: { cart: cartSchema },", caption: 'render_ui has no renderer (FINDINGS.md #91)' }],
   'gui-theming': [{ text: "\"--a2ui-color-accent\": \"#d97706\",", caption: 'render_ui has no renderer (FINDINGS.md #94)' }],
   'gui-transports': [{ text: "For a LangGraph Python agent, add CopilotKitMiddleware.", caption: 'render_ui has no renderer (FINDINGS.md #95)' }],
   'gui-markdown-mode': [{ text: "Any other agent needs one thing: put the run's context entries into its system prompt.", caption: 'render_ui has no renderer (FINDINGS.md #97)' }],
-  'gui-from-a2ui': [{ text: "generativeUI={{ ui: appUI }}", caption: 'render_ui has no renderer (FINDINGS.md #99)' }],
+  'gui-from-a2ui': [{ text: "generativeUI={{ ui: appUI }}", caption: 'render_ui gives nothing on Antigravity (FINDINGS.md #99)' }],
 };
 
 /**

@@ -13,7 +13,8 @@ mkdir -p logs
 (cd backend && uv run --env-file .env uvicorn main:app --port 8040 > ../logs/backend-8040.log 2>&1) &
 (cd backend && uv run --env-file .env uvicorn interrupt_main:app --port 8041 > ../logs/backend-8041.log 2>&1) &
 (cd backend && uv run --env-file .env uvicorn shared_state_main:app --port 8042 > ../logs/backend-8042.log 2>&1) &
-(cd backend && uv run --env-file .env uvicorn subagents_main:app --port 8043 > ../logs/backend-8043.log 2>&1) &
+# HARNESS: subagents.py imports httpx, which the page install step never names (FINDINGS.md #27)
+(cd backend && uv run --env-file .env --with httpx uvicorn subagents_main:app --port 8043 > ../logs/backend-8043.log 2>&1) &
 (cd backend && uv run --env-file .env uvicorn tool_rendering_main:app --port 8044 > ../logs/backend-8044.log 2>&1) &
 (cd backend && uv run --env-file .env uvicorn state_rendering_main:app --port 8045 > ../logs/backend-8045.log 2>&1) &
 # HARNESS: R5 pages (A2UI fixed/dynamic, JSON Render, Hashbrown, Open Generative UI) on :8060; the doc's
