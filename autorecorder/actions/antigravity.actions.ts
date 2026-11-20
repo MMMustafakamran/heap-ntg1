@@ -19,12 +19,6 @@ export const FINDING_NOTES: Record<string, string> = {
     "no history replays,the headless threads page replays the same thread on the same runtime fine",
     "page shows no runtime code at all,only a signup link,so i used the headless page server.ts with intelligence",
   ].join('\n'),
-  'rendering-in-app': [
-    "page says the agent reads the canvas state on its next turn",
-    "the canvas shows, but asked about my canvas title and done items the agent never knows and asks what canvas or looks for files",
-    "the page shows no backend at all",
-    "it never says the antigravity agent needs get_shared_state turned on",
-  ].join('\n'),
   components: [
     "page says already have copilotkit running, do step 3 only, runtime needs no change",
     "asked to compare starter team and enterprise plans, no standardui component renders, just text",
@@ -107,9 +101,6 @@ export const FINDING_NOTES: Record<string, string> = {
 export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
   'threads-drawer': [
     { text: 'Select "New Conversation", then select the first thread. The chat', caption: 'Reopening the thread replays nothing (FINDINGS.md #103)' },
-  ],
-  'rendering-in-app': [
-    { text: 'A click handler in the main view can push a new value that the', caption: 'No backend shown; the default agent never sees agent.state (FINDINGS.md #80)' },
   ],
   components: [
     { text: 'Already have CopilotKit running? Do step 3 only.', caption: 'Step 3 alone renders no component on Antigravity (FINDINGS.md #42)' },

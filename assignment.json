@@ -1349,21 +1349,20 @@
    "child": true,
    "docPath": "shared-state/rendering-in-app",
    "reachable": "sidebar",
-   "status": "❌",
+   "status": "✅",
    "findings": [
     79,
     80
    ],
    "notes": [
-    "Issue: the canvas shows, but the agent never sees its state: asked about the canvas title and done items it can't answer. The page shows no backend and never says the agent needs get_shared_state."
+    "Note: the backend comes from the linked Shared State page (experimental_app_state); this page shows only the frontend."
    ],
    "block": null,
    "links": [
     {
-     "text": "Issue",
+     "text": "Render agent state in your app - JS",
      "clip": "ANTIGRAVITY-react-20-RenderingInApp",
      "loom": "https://www.loom.com/share/53894fca8eaa48bfafd69664acc98889",
-     "narration": "narration/scripts/ANTIGRAVITY-react-20-RenderingInApp.json",
      "filmed": "2026-11-18"
     }
    ],
