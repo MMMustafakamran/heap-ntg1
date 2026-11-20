@@ -528,6 +528,11 @@ export const runVoiceAction: PageActionHandler = async (page, config, root, ctx)
   // Next "Module not found" overlay is what the viewer sees (review 2026-11-16: the placeholder's own
   // text was on camera). Pages record one at a time, so blanking the dev server for these
   // seconds breaks no other take; the placeholder is always put back in `finally`.
+  // HARNESS (re-audit 2026-11-20, owner): the page says to render <CopilotChat /> in place of <VoiceChat />,
+  // so voice-chat.tsx now renders CopilotChat and the page is judged on the voice feature itself.
+  // Set VOICE_SHOW_MODULE_NOT_FOUND=1 to film the old verbatim "Module not found" take.
+  const showOld = process.env.VOICE_SHOW_MODULE_NOT_FOUND === '1';
+  if (!showOld) { await runStandardAction(page, config, root, ctx); return; }
   const moved = existsSync(stub);
   if (moved) renameSync(stub, aside);
   try {
