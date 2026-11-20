@@ -19,41 +19,11 @@ export const FINDING_NOTES: Record<string, string> = {
     "no history replays,the headless threads page replays the same thread on the same runtime fine",
     "page shows no runtime code at all,only a signup link,so i used the headless page server.ts with intelligence",
   ].join('\n'),
-  'rendering-in-app': [
-    "page says the agent reads the canvas state on its next turn",
-    "the canvas shows, but asked about my canvas title and done items the agent never knows and asks what canvas or looks for files",
-    "the page shows no backend at all",
-    "it never says the antigravity agent needs get_shared_state turned on",
-  ].join('\n'),
   components: [
     "page says already have copilotkit running, do step 3 only, runtime needs no change",
     "asked to compare starter team and enterprise plans, no standardui component renders, just text",
     "the only setup on the page is a tanstack openai builtinagent, not antigravity",
     "so with the existing antigravity agent, do step 3 only, nothing renders",
-  ].join('\n'),
-  subagents: [
-    "page says the supervisor delegates to sub agents and the log shows it",
-    "server crashes on start,modulenotfound no module named httpx",
-    "install step only says pip install ag-ui-antigravity google-antigravity but subagents.py imports httpx",
-    "httpx used to come thru google genai,new genai doesnt bring it anymore",
-  ].join('\n'),
-  'clf-reasoning-messages': [
-    "page says reasoning models emit reasoning tokens and copilotkit shows them in the chat",
-    "ran it, chat answers fine but no reasoning message ever shows up, just the plain reply",
-    "backend reasoning.py takes reasoning_model and builds from agents._common",
-    "that module isnt published anywhere so u dont know which model to use",
-  ].join('\n'),
-  voice: [
-    "page says u get a voice chat with transcription on top of copilotkit",
-    "next dev fails with module not found, cant resolve ./voice-chat",
-    "and that build error blanks every route of the app, not just voice",
-    "page.tsx imports voicechat from ./voice-chat but no tab shows that file, harness has a stub so other pages load",
-  ].join('\n'),
-  reasoning: [
-    "reasoning page says the agents thinking shows up as a reasoning block",
-    "with the antigravity agent the chat replies in plain text, no reasoning block renders",
-    "usereasoningcustomsuggestions is imported but never defined, only the default hook is shown",
-    "backend reasoning.py needs reasoning_model from agents._common, not published",
   ].join('\n'),
   'a2ui-dynamic-schema': [
     "dynamic schema page says thats all the default path needs",
@@ -120,27 +90,8 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
   'threads-drawer': [
     { text: 'Select "New Conversation", then select the first thread. The chat', caption: 'Reopening the thread replays nothing (FINDINGS.md #103)' },
   ],
-  'rendering-in-app': [
-    { text: 'A click handler in the main view can push a new value that the', caption: 'No backend shown; the default agent never sees agent.state (FINDINGS.md #80)' },
-  ],
   components: [
     { text: 'Already have CopilotKit running? Do step 3 only.', caption: 'Step 3 alone renders no component on Antigravity (FINDINGS.md #42)' },
-  ],
-  subagents: [
-    { text: 'pip install ag-ui-antigravity google-antigravity', caption: 'Install step: no httpx' },
-    { text: 'import httpx', caption: 'The code needs httpx (FINDINGS.md #49)' },
-  ],
-  'clf-reasoning-messages': [
-    { text: 'Some models (like gpt-6-luna) emit reasoning tokens', caption: 'Promises reasoning; the Code tab backend needs the unpublished agents._common.REASONING_MODEL (FINDINGS.md #61)' },
-    { text: 'const AGENT_ID = "reasoning-default";', caption: 'Agent backed by reasoning.py, which needs agents._common' },
-  ],
-  voice: [
-    { text: 'import { VoiceChat } from "./voice-chat";', caption: 'voice-chat.tsx in no tab: Module not found (FINDINGS.md #63)' },
-    { text: 'import { TranscriptionServiceOpenAI } from "@copilotkit/voice";', caption: 'No install step for @copilotkit/voice' },
-  ],
-  reasoning: [
-    { text: 'useReasoningCustomSuggestions();', caption: 'Never defined: the only suggestions.ts shown defines the default hook (FINDINGS.md #64)' },
-    { text: 'const AGENT_ID = "reasoning-custom";', caption: 'Backed by reasoning.py, which needs the unpublished agents._common.REASONING_MODEL' },
   ],
   'a2ui-dynamic-schema': [
     { text: 'That is all the default path needs.', caption: 'Wired as shown; A2UI render error instead of a dashboard (FINDINGS.md #72)' },
@@ -345,7 +296,7 @@ export const runSubagentsAction: PageActionHandler = async (page, config, root, 
   try {
     await runSubagentsTake(page, config, root, ctx);
   } finally {
-    // FINDINGS.md #49: on today's versions the sub-agents server never starts.
+    // Re-audit 2026-11-20: ✅ (httpx install gap is a minor note, FINDINGS.md #49); no notes entry, so no Notepad.
     await writeFinding(page, config.id, config);
   }
 };
