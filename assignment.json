@@ -1380,7 +1380,7 @@
    "group": "Shared state",
    "child": true,
    "docPath": "shared-state/streaming",
-   "reachable": "sidebar",
+   "reachable": "none",
    "status": "N/A",
    "findings": [],
    "notes": [
