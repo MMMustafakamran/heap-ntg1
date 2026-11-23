@@ -117,7 +117,7 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
     { text: 'That is all the default path needs.', caption: 'Wired as shown; A2UI render error instead of a dashboard (FINDINGS.md #72)' },
   ],
   'a2ui-fixed-schema': [
-    { text: 'resolved against the data model', caption: 'Card renders but no bound value shows (FINDINGS.md #73)' },
+    { text: 'binder resolves each path before your renderer runs', caption: 'Card renders but no bound value shows (FINDINGS.md #73)' },
   ],
   'gui-surfaces': [{ text: "fallback={<ProductRow products={products} />}", caption: 'render_ui has no renderer (FINDINGS.md #87)' }],
   'gui-catalogs': [{ text: "generativeUI={{ ui: shopUI }}", caption: 'no Antigravity agent setup on the page (FINDINGS.md #89)' }],
