@@ -45,6 +45,8 @@ export const ACTION_MAP: Record<string, PageActionHandler> = {
   a2ui: runStandardWithFinding,
   'a2ui-dynamic-schema': runStandardWithFinding,
   'a2ui-fixed-schema': runStandardWithFinding,
+  'a2ui-styling': runStandardWithFinding,
+  'a2ui-advanced': runStandardWithFinding,
   'gui-surfaces': runStandardWithFinding,
   'gui-catalogs': runStandardWithFinding,
   'gui-standard-catalog': runStandardWithFinding,
