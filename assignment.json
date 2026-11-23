@@ -4,14 +4,14 @@
  "repo": "Antigravity-react",
  "docBase": "https://docs.copilotkit.ai/google-antigravity/",
  "versions": {
-  "@copilotkit/react-core": "1.89.0",
-  "@copilotkit/runtime": "1.89.0",
-  "@ag-ui/client": "1.0.4",
+  "@copilotkit/react-core": "1.90.0",
+  "@copilotkit/runtime": "1.90.0",
+  "@ag-ui/client": "1.0.5",
   "next": "16.4.5",
   "react": "19.3.0",
-  "google-antigravity": "0.1.23",
+  "google-antigravity": "0.1.24",
   "ag-ui-antigravity": "0.2.1",
-  "fastapi": "0.162.0",
+  "fastapi": "0.165.0",
   "uvicorn": "0.54.0",
   "copilotkit": "4.33.1"
  },
@@ -1103,20 +1103,22 @@
    "child": true,
    "docPath": "generative-ui/a2ui",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
-    71
+    71,
+    103
    ],
    "notes": [
-    "Note: catalog and agent come from the linked Dynamic Schema page."
+    "Issue: no dashboard renders, VStack not in catalog or the run errors."
    ],
    "block": null,
    "links": [
     {
-     "text": "A2UI - JS",
+     "text": "Issue",
      "clip": "ANTIGRAVITY-react-41-A2UI",
-     "loom": "https://www.loom.com/share/735e9961f8174639acc793cf9e98909c",
-     "filmed": "2026-11-20"
+     "loom": null,
+     "narration": "narration/scripts/ANTIGRAVITY-react-41-A2UI.json",
+     "filmed": null
     }
    ],
    "review": {
@@ -1189,6 +1191,70 @@
     "by": null
    },
    "added": "2026-11-10"
+  },
+  {
+   "id": "a2ui-styling",
+   "label": "Styling",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": true,
+   "docPath": "generative-ui/a2ui/styling",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    104
+   ],
+   "notes": [
+    "Issue: themed flight card renders empty, no airline, airports or price."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "ANTIGRAVITY-react-47-A2UIStyling",
+     "loom": null,
+     "narration": "narration/scripts/ANTIGRAVITY-react-47-A2UIStyling.json",
+     "filmed": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   },
+   "added": "2026-11-23"
+  },
+  {
+   "id": "a2ui-advanced",
+   "label": "Advanced",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": true,
+   "docPath": "generative-ui/a2ui/advanced",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    105
+   ],
+   "notes": [
+    "Issue: no dashboard renders, A2UI render error reading 'map'."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "ANTIGRAVITY-react-48-A2UIAdvanced",
+     "loom": null,
+     "narration": "narration/scripts/ANTIGRAVITY-react-48-A2UIAdvanced.json",
+     "filmed": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   },
+   "added": "2026-11-23"
   },
   {
    "id": "json-render",

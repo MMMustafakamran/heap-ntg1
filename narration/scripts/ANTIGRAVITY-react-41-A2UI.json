@@ -1,0 +1,32 @@
+{
+ "clip": "ANTIGRAVITY-react-41-A2UI",
+ "finding": "antigravity-react 103",
+ "level": 1,
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the A2UI page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, it says the frontend renders the agent's schema as cards and rows, but nothing renders."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked for a sales dashboard, it should show one in the chat, but uh, no dashboard shows up."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the agent's UI gets rejected, like VStack is not in the catalog, or the run just errors out. And the catalog and agent come from the Dynamic Schema page, which breaks too."
+  },
+  {
+   "at": "+",
+   "text": "Alright, that's the issue, kindly sort it out."
+  }
+ ],
+ "page": "a2ui"
+}

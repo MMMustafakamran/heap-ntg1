@@ -1,6 +1,6 @@
 # Findings — Antigravity-react
 Open doc defects only, for the reachable pages of the Google Antigravity React docs (`.qa/instructions/QA-RULES.md` §5, §9). Numbers are stable IDs (code cites `FINDINGS.md #N`), so gaps are removed findings. Checked against the rendered pages, including their Code tabs, on 2026-11-11.
-Stack: `@copilotkit/react-core`/`runtime` 1.89.0 (npm latest, CI 2026-11-20), `@ag-ui/client` 1.0.4, `next` 16.4.5, `react` 19.3.0, `google-antigravity` 0.1.23, `ag-ui-antigravity` 0.2.1, `fastapi` 0.162.0, `uvicorn` 0.54.0, CLI `copilotkit` 4.33.1. Python 3.13.15, Windows 11. Docs: https://docs.copilotkit.ai/google-antigravity (snapshot 2026-11-04, drift-checked 2026-11-11)
+Stack: `@copilotkit/react-core`/`runtime` 1.90.0 (npm latest, CI 2026-11-23), `@ag-ui/client` 1.0.5, `next` 16.4.5, `react` 19.3.0, `google-antigravity` 0.1.24, `ag-ui-antigravity` 0.2.1, `fastapi` 0.165.0, `uvicorn` 0.54.0, CLI `copilotkit` 4.33.1. Python 3.13.15, Windows 11. Docs: https://docs.copilotkit.ai/google-antigravity (snapshot 2026-11-04, drift-checked 2026-11-11)
 
 ## Dev blockers (seen with `npm run dev` and normal use of the page)
 
@@ -68,6 +68,21 @@ Stack: `@copilotkit/react-core`/`runtime` 1.89.0 (npm latest, CI 2026-11-20), `@
 **#99 No Airport/Arrow UI renders: `render_ui` gives nothing on Antigravity, same as Components and surfaces.**
 - **Doc:** `createGenerativeUI({ id: "acme/flights@1", extends: [standardUI], components: { Airport, Arrow } })` + `generativeUI={{ ui: appUI }}`.
 - **Result:** no Airport/Arrow UI ever shows up; runs end in an empty reply or a failed run (3 probes 2026-11-13). Same on the doc's own runtime shape (re-checked 2026-11-12).
+
+### [A2UI](https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui)
+**#103 No dashboard renders: the agent's surface is rejected ("Component type VStack is not in the catalog") or the run fails with AntigravityExecutionError.**
+- **Doc:** "The frontend renders that schema as cards, rows, columns, badges, and price tags from a catalog of components"; catalog and agent come from the linked Dynamic Schema page.
+- **Result:** "Show me a quick sales KPI dashboard with revenue, deals and win rate." gives "Couldn't generate the UI" / "Component type 'VStack' is not in the catalog", or the agent apologizes and prints JSON; no dashboard. Failed in CI 45067972847 and 45137739455 and in 2 local probes (2026-11-23).
+
+### [Styling](https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui/styling) (in-content, linked from A2UI)
+**#104 The themed flight card renders empty: no airline, airports or price, so there is nothing styled to see.**
+- **Doc:** `src/a2ui/theme.css` with `.a2ui-surface` custom properties, imported in `layout.tsx`, on the Fixed Schema setup.
+- **Result:** "Show me a United flight from SFO to JFK for $289." gives a "Flight Details" card with blank fields (same cause as #73). CI 45067972847.
+
+### [Advanced](https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui/advanced) (in-content, linked from Fixed Schema)
+**#105 No dashboard renders; the chat shows "A2UI render error: Cannot read properties of undefined (reading 'map')".**
+- **Doc:** `A2UIProgress` passed as `loadingComponent` in the provider's `a2ui` prop, on the Dynamic Schema setup.
+- **Error:** `A2UI render error: Cannot read properties of undefined (reading 'map')` / "Unable to display this surface" (same as #72). CI 45067972847.
 
 ## Minor notes
 - #80 [Render agent state in your app](https://docs.copilotkit.ai/google-antigravity/shared-state/rendering-in-app): the backend comes from the linked Shared State page (`experimental_app_state`); this page shows only the frontend.

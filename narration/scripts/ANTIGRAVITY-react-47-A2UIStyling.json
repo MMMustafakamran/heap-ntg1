@@ -1,0 +1,32 @@
+{
+ "clip": "ANTIGRAVITY-react-47-A2UIStyling",
+ "finding": "antigravity-react 104",
+ "level": 1,
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the A2UI Styling page for Google Antigravity, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, it says A2UI surfaces get themed with these CSS variables, but the surface has nothing in it."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked for a flight, it should show a styled flight card, but the card is empty."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, there's no airline, no airports and no price, just the title and the book button, so uh, there's nothing styled to see."
+  },
+  {
+   "at": "+",
+   "text": "So umm, this one needs fixing, please look into it."
+  }
+ ],
+ "page": "a2ui-styling"
+}

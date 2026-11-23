@@ -37,6 +37,24 @@ export const FINDING_NOTES: Record<string, string> = {
     "usereasoningcustomsuggestions is imported but never defined, only the default hook is shown",
     "backend reasoning.py needs reasoning_model from agents._common, not published",
   ].join('\n'),
+  'a2ui': [
+    "a2ui page says the frontend renders the agents schema as cards rows columns badges",
+    "asked for a sales kpi dashboard, no dashboard shows up",
+    "agent says component type vstack is not in the catalog,or the run just errors,couldnt generate the ui",
+    "page sends u to dynamic schema for the catalog and agent and that setup doesnt render either",
+  ].join('\n'),
+  'a2ui-styling': [
+    "styling page says a2ui surfaces get themed with the css vars",
+    "asked for a united flight sfo to jfk, a card shows but its empty",
+    "no airline no airports no price,only the title and book button so theres nothing styled to see",
+    "same fixed schema setup the page builds on,data never gets bound",
+  ].join('\n'),
+  'a2ui-advanced': [
+    "advanced page says a secondary llm builds the ui and ur progress component shows meanwhile",
+    "asked for a sales kpi dashboard, no dashboard shows",
+    "chat shows a2ui render error cannot read properties of undefined reading map",
+    "same dynamic schema setup the page builds on,it breaks the same way",
+  ].join('\n'),
   'a2ui-dynamic-schema': [
     "dynamic schema page says thats all the default path needs",
     "asked for a sales kpi dashboard, no dashboard shows and the chat shows an a2ui render error",
@@ -112,6 +130,15 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
   reasoning: [
     { text: 'useReasoningCustomSuggestions();', caption: 'Never defined: the only suggestions.ts shown defines the default hook (FINDINGS.md #64)' },
     { text: 'const AGENT_ID = "reasoning-custom";', caption: 'Backed by reasoning.py, which needs the unpublished agents._common.REASONING_MODEL' },
+  ],
+  'a2ui': [
+    { text: 'renders that schema as cards, rows, columns, badges', caption: 'No dashboard renders; VStack not in catalog / run error (FINDINGS.md #103)' },
+  ],
+  'a2ui-styling': [
+    { text: 'A2UI surfaces support theming through CSS custom properties', caption: 'Flight card renders empty, nothing to theme (FINDINGS.md #104)' },
+  ],
+  'a2ui-advanced': [
+    { text: 'a secondary LLM generates the UI schema and data', caption: 'A2UI render error reading map, no dashboard (FINDINGS.md #105)' },
   ],
   'a2ui-dynamic-schema': [
     { text: 'That is all the default path needs.', caption: 'Wired as shown; A2UI render error instead of a dashboard (FINDINGS.md #72)' },
