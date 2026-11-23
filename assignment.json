@@ -1662,7 +1662,8 @@
     "approvedAt": null,
     "by": null
    },
-   "recheck": "marked for re-check 2026-11-11 (finding unverifiable from saved evidence)"
+   "recheck": "marked for re-check 2026-11-11 (finding unverifiable from saved evidence)",
+   "excluded": "Backend section of the docs sidebar (owner 2026-11-23: Backend pages out of scope)"
   }
  ]
 }
