@@ -7,6 +7,7 @@ import { runStandardAction } from '../core/actions';
 import { type Page } from 'playwright';
 
 import { waitForPageReady } from './page-ready';
+import { runVoiceMicAction } from './voice-mic';
 import {
   runFrontendToolsAction,
   runHeadlessInterruptAction,
@@ -38,7 +39,7 @@ export const ACTION_MAP: Record<string, PageActionHandler> = {
   'chat-controls': runChatControlsAction,
   // 2026-11-10 pages (level 1): standard take, then doc evidence + Notepad.
   'clf-reasoning-messages': runStandardWithFinding,
-  voice: runVoiceAction,
+  voice: runVoiceMicAction, // spoken through the fake mic (fakeMicWav); runVoiceAction = the old typed take
   'rendering-in-app': runStandardWithFinding,
   reasoning: runStandardWithFinding,
   a2ui: runStandardWithFinding,
