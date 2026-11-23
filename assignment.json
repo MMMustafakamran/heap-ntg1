@@ -241,9 +241,7 @@
    "findings": [
     52
    ],
-   "notes": [
-    "Note: ./suggestions is imported but never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -273,9 +271,7 @@
    "findings": [
     53
    ],
-   "notes": [
-    "Note: ./main-content and ./suggestions-mount are imported but never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -305,9 +301,7 @@
    "findings": [
     54
    ],
-   "notes": [
-    "Note: ./main-content and ./suggestions-mount are imported but never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -337,9 +331,7 @@
    "findings": [
     55
    ],
-   "notes": [
-    "Note: analytics.track in the feedback snippet is never defined"
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -370,9 +362,7 @@
     56,
     57
    ],
-   "notes": [
-    "Note: CSS snippet imports @copilotkit/react-ui (v1, not installed); icons are placeholders."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -402,9 +392,7 @@
    "findings": [
     59
    ],
-   "notes": [
-    "Note: CustomToolbar and CustomCopyButton are never defined."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -462,9 +450,7 @@
    "findings": [
     60
    ],
-   "notes": [
-    "Note: snippets are fragments; agent \"headless-simple\" is never registered."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -526,9 +512,7 @@
    "findings": [
     62
    ],
-   "notes": [
-    "Note: swap agentId=\"my-agent\" for your own agent id."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -558,9 +542,7 @@
    "findings": [
     63
    ],
-   "notes": [
-    "Note: voice-chat.tsx isn't on the page; use CopilotChat as the page says."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -651,9 +633,7 @@
    "findings": [
     69
    ],
-   "notes": [
-    "Note: server.ts uses agent and verifyAppSession without defining them."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -686,9 +666,7 @@
     10,
     11
    ],
-   "notes": [
-    "Note: ./background, ./suggestions and agents._common are never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -718,9 +696,7 @@
     78,
     101
    ],
-   "notes": [
-    "Note: ./pie-chart, ./suggestions and agents._common are never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -750,9 +726,7 @@
    "findings": [
     36
    ],
-   "notes": [
-    "Note: prose says roll_dice but the tool is roll_d20."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -1388,9 +1362,7 @@
     24,
     25
    ],
-   "notes": [
-    "Note: set_notes uses experimental state helpers without importing them."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -1420,9 +1392,7 @@
     79,
     80
    ],
-   "notes": [
-    "Note: backend comes from the linked Shared State page."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -1474,9 +1444,7 @@
     82,
     83
    ],
-   "notes": [
-    "Note: agents._common, ./demo-layout and ./suggestions are never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -1513,9 +1481,7 @@
     18,
     47
    ],
-   "notes": [
-    "Note: hitl.py imports build from agents._common, which is never shown."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
@@ -1620,9 +1586,7 @@
    "findings": [
     33
    ],
-   "notes": [
-    "Note: `searchOrders()` isn't defined on the page."
-   ],
+   "notes": [],
    "block": null,
    "links": [
     {
