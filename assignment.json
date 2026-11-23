@@ -1109,7 +1109,7 @@
     103
    ],
    "notes": [
-    "Issue: no dashboard renders, VStack not in catalog or the run errors."
+    "Issue: no dashboard renders, agent errors out or dumps raw JSON."
    ],
    "block": null,
    "links": [

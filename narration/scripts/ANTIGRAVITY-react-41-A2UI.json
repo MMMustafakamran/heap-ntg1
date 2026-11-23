@@ -21,7 +21,7 @@
   },
   {
    "at": "notepad",
-   "text": "So basically, the agent's UI gets rejected, like VStack is not in the catalog, or the run just errors out. And the catalog and agent come from the Dynamic Schema page, which breaks too."
+   "text": "So basically, no dashboard ever renders, the agent just errors out, like a catalog error or several render calls, or it dumps raw JSON. And the catalog and agent come from the Dynamic Schema page, which breaks too."
   },
   {
    "at": "+",
