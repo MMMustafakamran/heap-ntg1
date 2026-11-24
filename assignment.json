@@ -1,1669 +1,1669 @@
 {
- "framework": "Google Antigravity",
- "ui": "react",
- "repo": "Antigravity-react",
- "docBase": "https://docs.copilotkit.ai/google-antigravity/",
- "versions": {
-  "@copilotkit/react-core": "1.90.0",
-  "@copilotkit/runtime": "1.90.0",
-  "@ag-ui/client": "1.0.5",
-  "next": "16.4.5",
-  "react": "19.3.0",
-  "google-antigravity": "0.1.24",
-  "ag-ui-antigravity": "0.2.1",
-  "fastapi": "0.165.0",
-  "uvicorn": "0.54.0",
-  "copilotkit": "4.33.1"
- },
- "testedContext": {
-  "os": "Microsoft Windows 11 Pro",
-  "packageManager": "npm 11 (Node 26.7.0)"
- },
- "report": {
-  "style": "status",
-  "h1": "Google Antigravity",
-  "title": "Google Antigravity status",
-  "quickstartHeading": "Quickstart",
-  "quickstartHeader": [
-   "Frontend",
-   "Quickstart"
+  "framework": "Google Antigravity",
+  "ui": "react",
+  "repo": "Antigravity-react",
+  "docBase": "https://docs.copilotkit.ai/google-antigravity/",
+  "versions": {
+    "@copilotkit/react-core": "1.90.0",
+    "@copilotkit/runtime": "1.90.0",
+    "@ag-ui/client": "1.0.5",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "google-antigravity": "0.1.24",
+    "ag-ui-antigravity": "0.2.1",
+    "fastapi": "0.165.0",
+    "uvicorn": "0.54.0",
+    "copilotkit": "4.33.1"
+  },
+  "testedContext": {
+    "os": "Microsoft Windows 11 Pro",
+    "packageManager": "npm 11 (Node 26.7.0)"
+  },
+  "report": {
+    "style": "status",
+    "h1": "Google Antigravity",
+    "title": "Google Antigravity status",
+    "quickstartHeading": "Quickstart",
+    "quickstartHeader": [
+      "Frontend",
+      "Quickstart"
+    ],
+    "clipsToUpload": false,
+    "columns": [
+      "Page/Section",
+      "Results"
+    ],
+    "resultColumn": 1,
+    "guidesHeading": "Guides (React)"
+  },
+  "sections": [
+    {
+      "label": "Basics",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Chat",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Prebuilt Components",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Custom Look and Feel",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Chat​",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Threads",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Basics​",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Generative UI",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Controlled",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Declarative",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Components and surfaces",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "A2UI",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Declarative​",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Open-ended",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Interactivity",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Shared state",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Human-in-the-loop",
+      "cells": [
+        "Sub section"
+      ]
+    },
+    {
+      "label": "Interactivity​",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Agent capabilities",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Backend",
+      "cells": [
+        "Section"
+      ]
+    },
+    {
+      "label": "Debugging",
+      "cells": [
+        "Sub section"
+      ]
+    }
   ],
-  "clipsToUpload": false,
-  "columns": [
-   "Page/Section",
-   "Results"
-  ],
-  "resultColumn": 1,
-  "guidesHeading": "Guides (React)"
- },
- "sections": [
-  {
-   "label": "Basics",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Chat",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Prebuilt Components",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Custom Look and Feel",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Chat​",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Threads",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Basics​",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Generative UI",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Controlled",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Declarative",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Components and surfaces",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "A2UI",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Declarative​",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Open-ended",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Interactivity",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Shared state",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Human-in-the-loop",
-   "cells": [
-    "Sub section"
-   ]
-  },
-  {
-   "label": "Interactivity​",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Agent capabilities",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Backend",
-   "cells": [
-    "Section"
-   ]
-  },
-  {
-   "label": "Debugging",
-   "cells": [
-    "Sub section"
-   ]
-  }
- ],
- "pages": [
-  {
-   "id": "quickstart-cli",
-   "label": "CLI / Start from Scratch",
-   "kind": "quickstart",
-   "group": null,
-   "child": false,
-   "docPath": "quickstart",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    1,
-    2,
-    4,
-    5,
-    6,
-    40
-   ],
-   "notes": [
-    "Note: copilotkit init --framework antigravity fails; copy the starter from the repo."
-   ],
-   "block": null,
-   "links": [],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "quickstart",
-   "label": "React",
-   "kind": "quickstart",
-   "group": null,
-   "child": false,
-   "docPath": "quickstart",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    1,
-    2,
-    4,
-    5,
-    6,
-    40
-   ],
-   "notes": [
-    "Note: main.py never loads .env; start it with uv run --env-file .env."
-   ],
-   "block": null,
-   "links": [
+  "pages": [
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-01-Quickstart",
-     "loom": "https://www.loom.com/share/6dd9dc2d931541c384018ec7703f4d4e",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "prebuilt-chat",
-   "label": "CopilotChat",
-   "kind": "guide",
-   "group": "Prebuilt Components",
-   "child": true,
-   "docPath": "prebuilt-components/chat",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    52
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "quickstart-cli",
+      "label": "CLI / Start from Scratch",
+      "kind": "quickstart",
+      "group": null,
+      "child": false,
+      "docPath": "quickstart",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        40
+      ],
+      "notes": [
+        "Note: copilotkit init --framework antigravity fails; copy the starter from the repo."
+      ],
+      "block": null,
+      "links": [],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-15-CopilotChat",
-     "loom": "https://www.loom.com/share/4645a73bad04462998c063fc51a07ef2",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "prebuilt-sidebar",
-   "label": "CopilotSidebar",
-   "kind": "guide",
-   "group": "Prebuilt Components",
-   "child": true,
-   "docPath": "prebuilt-components/sidebar",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    53
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "quickstart",
+      "label": "React",
+      "kind": "quickstart",
+      "group": null,
+      "child": false,
+      "docPath": "quickstart",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        40
+      ],
+      "notes": [
+        "Note: main.py never loads .env; start it with uv run --env-file .env."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-01-Quickstart",
+          "loom": "https://www.loom.com/share/6dd9dc2d931541c384018ec7703f4d4e",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-16-CopilotSidebar",
-     "loom": "https://www.loom.com/share/f4bfb85a8bee4252a1278f88c4fe6654",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "prebuilt-popup",
-   "label": "CopilotPopup",
-   "kind": "guide",
-   "group": "Prebuilt Components",
-   "child": true,
-   "docPath": "prebuilt-components/popup",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    54
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "prebuilt-chat",
+      "label": "CopilotChat",
+      "kind": "guide",
+      "group": "Prebuilt Components",
+      "child": true,
+      "docPath": "prebuilt-components/chat",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        52
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-15-CopilotChat",
+          "loom": "https://www.loom.com/share/4645a73bad04462998c063fc51a07ef2",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-17-CopilotPopup",
-     "loom": "https://www.loom.com/share/c650e6e222244b9daad63938a29690a3",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "chat-controls",
-   "label": "Open, close, and feedback",
-   "kind": "guide",
-   "group": "Prebuilt Components",
-   "child": true,
-   "docPath": "prebuilt-components/chat-controls",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    55
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "prebuilt-sidebar",
+      "label": "CopilotSidebar",
+      "kind": "guide",
+      "group": "Prebuilt Components",
+      "child": true,
+      "docPath": "prebuilt-components/sidebar",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        53
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-16-CopilotSidebar",
+          "loom": "https://www.loom.com/share/f4bfb85a8bee4252a1278f88c4fe6654",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-18-ChatControls",
-     "loom": "https://www.loom.com/share/1f0af877ab4241d69c8f523c5a875c1e",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "clf-css",
-   "label": "CSS Customization",
-   "kind": "guide",
-   "group": "Custom Look and Feel",
-   "child": true,
-   "docPath": "custom-look-and-feel/css",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    56,
-    57
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "prebuilt-popup",
+      "label": "CopilotPopup",
+      "kind": "guide",
+      "group": "Prebuilt Components",
+      "child": true,
+      "docPath": "prebuilt-components/popup",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        54
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-17-CopilotPopup",
+          "loom": "https://www.loom.com/share/c650e6e222244b9daad63938a29690a3",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-36-CSSCustomization",
-     "loom": "https://www.loom.com/share/85e416a1daf84ae6a6ab6a1044f67715",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "clf-slots",
-   "label": "Slots (Subcomponents)",
-   "kind": "guide",
-   "group": "Custom Look and Feel",
-   "child": true,
-   "docPath": "custom-look-and-feel/slots",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    59
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "chat-controls",
+      "label": "Open, close, and feedback",
+      "kind": "guide",
+      "group": "Prebuilt Components",
+      "child": true,
+      "docPath": "prebuilt-components/chat-controls",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        55
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-18-ChatControls",
+          "loom": "https://www.loom.com/share/1f0af877ab4241d69c8f523c5a875c1e",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-37-Slots",
-     "loom": "https://www.loom.com/share/6d51cae6812a4465bb9101974c9051eb",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "clf-markdown",
-   "label": "Markdown Rendering",
-   "kind": "guide",
-   "group": "Custom Look and Feel",
-   "child": true,
-   "docPath": "custom-look-and-feel/markdown",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "clf-css",
+      "label": "CSS Customization",
+      "kind": "guide",
+      "group": "Custom Look and Feel",
+      "child": true,
+      "docPath": "custom-look-and-feel/css",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        56,
+        57
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-36-CSSCustomization",
+          "loom": "https://www.loom.com/share/85e416a1daf84ae6a6ab6a1044f67715",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-38-MarkdownRendering",
-     "loom": "https://www.loom.com/share/be18ccc2e18e418498f961cf6c48f2fa",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "clf-headless-ui",
-   "label": "Headless UI",
-   "kind": "guide",
-   "group": "Custom Look and Feel",
-   "child": true,
-   "docPath": "custom-look-and-feel/headless-ui",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    60
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "clf-slots",
+      "label": "Slots (Subcomponents)",
+      "kind": "guide",
+      "group": "Custom Look and Feel",
+      "child": true,
+      "docPath": "custom-look-and-feel/slots",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        59
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-37-Slots",
+          "loom": "https://www.loom.com/share/6d51cae6812a4465bb9101974c9051eb",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-39-HeadlessUI",
-     "loom": "https://www.loom.com/share/bdfc5791f7944c2586018a907180bffe",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "clf-reasoning-messages",
-   "label": "Reasoning Messages",
-   "kind": "guide",
-   "group": "Custom Look and Feel",
-   "child": true,
-   "docPath": "custom-look-and-feel/reasoning-messages",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    61
-   ],
-   "notes": [
-    "Issue: no reasoning message renders; the page never says which Gemini model or setting gives reasoning."
-   ],
-   "block": null,
-   "links": [
+      "id": "clf-markdown",
+      "label": "Markdown Rendering",
+      "kind": "guide",
+      "group": "Custom Look and Feel",
+      "child": true,
+      "docPath": "custom-look-and-feel/markdown",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-38-MarkdownRendering",
+          "loom": "https://www.loom.com/share/be18ccc2e18e418498f961cf6c48f2fa",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-40-ReasoningMessages",
-     "loom": "https://www.loom.com/share/d728b9af4f684720b94e7ad553058595",
-     "narration": "narration/scripts/ANTIGRAVITY-react-40-ReasoningMessages.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "multimodal-attachments",
-   "label": "Multimodal Attachments",
-   "kind": "guide",
-   "group": "Chat​",
-   "child": true,
-   "docPath": "multimodal-attachments",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    62
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "clf-headless-ui",
+      "label": "Headless UI",
+      "kind": "guide",
+      "group": "Custom Look and Feel",
+      "child": true,
+      "docPath": "custom-look-and-feel/headless-ui",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        60
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-39-HeadlessUI",
+          "loom": "https://www.loom.com/share/bdfc5791f7944c2586018a907180bffe",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-23-MultimodalAttachments",
-     "loom": "https://www.loom.com/share/0d0047b36614400f8d00fef6adf4c282",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "voice",
-   "label": "Voice",
-   "kind": "guide",
-   "group": "Chat​",
-   "child": true,
-   "docPath": "voice",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    63
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "clf-reasoning-messages",
+      "label": "Reasoning Messages",
+      "kind": "guide",
+      "group": "Custom Look and Feel",
+      "child": true,
+      "docPath": "custom-look-and-feel/reasoning-messages",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        61
+      ],
+      "notes": [
+        "Issue: no reasoning message renders; the page never says which Gemini model or setting gives reasoning."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-40-ReasoningMessages",
+          "loom": "https://www.loom.com/share/d728b9af4f684720b94e7ad553058595",
+          "narration": "narration/scripts/ANTIGRAVITY-react-40-ReasoningMessages.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Voice - JS",
-     "clip": "ANTIGRAVITY-react-24-Voice",
-     "loom": "https://www.loom.com/share/b1f34b6aea964c4ebfcd1ec0d94a488a",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "reasoning",
-   "label": "Reasoning",
-   "kind": "guide",
-   "group": "Chat​",
-   "child": true,
-   "docPath": "generative-ui/reasoning",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    64
-   ],
-   "notes": [
-    "Issue: no reasoning block renders; useReasoningCustomSuggestions is never defined."
-   ],
-   "block": null,
-   "links": [
+      "id": "multimodal-attachments",
+      "label": "Multimodal Attachments",
+      "kind": "guide",
+      "group": "Chat​",
+      "child": true,
+      "docPath": "multimodal-attachments",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        62
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-23-MultimodalAttachments",
+          "loom": "https://www.loom.com/share/0d0047b36614400f8d00fef6adf4c282",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-25-Reasoning",
-     "loom": "https://www.loom.com/share/e269000531134354a2277fe6e86a2730",
-     "narration": "narration/scripts/ANTIGRAVITY-react-25-Reasoning.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "threads-drawer",
-   "label": "Threads Drawer",
-   "kind": "guide",
-   "group": "Threads",
-   "child": true,
-   "docPath": "prebuilt-components/copilot-threads-drawer",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    67
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "voice",
+      "label": "Voice",
+      "kind": "guide",
+      "group": "Chat​",
+      "child": true,
+      "docPath": "voice",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        63
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": "Voice - JS",
+          "clip": "ANTIGRAVITY-react-24-Voice",
+          "loom": "https://www.loom.com/share/b1f34b6aea964c4ebfcd1ec0d94a488a",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Threads Drawer - JS",
-     "clip": "ANTIGRAVITY-react-26-ThreadsDrawer",
-     "loom": "https://www.loom.com/share/5f9a8cd523c541949e6208123898fbae",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "headless-threads",
-   "label": "Headless Threads",
-   "kind": "guide",
-   "group": "Threads",
-   "child": true,
-   "docPath": "headless-threads",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    69
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "reasoning",
+      "label": "Reasoning",
+      "kind": "guide",
+      "group": "Chat​",
+      "child": true,
+      "docPath": "generative-ui/reasoning",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        64
+      ],
+      "notes": [
+        "Issue: no reasoning block renders; useReasoningCustomSuggestions is never defined."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-25-Reasoning",
+          "loom": "https://www.loom.com/share/e269000531134354a2277fe6e86a2730",
+          "narration": "narration/scripts/ANTIGRAVITY-react-25-Reasoning.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Headless Threads - JS",
-     "clip": "ANTIGRAVITY-react-27-HeadlessThreads",
-     "loom": "https://www.loom.com/share/1c1875eda0264a44953d7f2414994585",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "frontend-tools",
-   "label": "Frontend Tools",
-   "kind": "guide",
-   "group": "Basics​",
-   "child": false,
-   "docPath": "frontend-tools",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    7,
-    8,
-    9,
-    10,
-    11
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "threads-drawer",
+      "label": "Threads Drawer",
+      "kind": "guide",
+      "group": "Threads",
+      "child": true,
+      "docPath": "prebuilt-components/copilot-threads-drawer",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        67
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": "Threads Drawer - JS",
+          "clip": "ANTIGRAVITY-react-26-ThreadsDrawer",
+          "loom": "https://www.loom.com/share/5f9a8cd523c541949e6208123898fbae",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-02-FrontendTools",
-     "loom": "https://www.loom.com/share/038e2b959d624b458f56b39eb761f48c",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "gen-ui-tool-based",
-   "label": "Components as Tools",
-   "kind": "guide",
-   "group": "Controlled",
-   "child": true,
-   "docPath": "generative-ui/tool-based",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    78,
-    101
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "headless-threads",
+      "label": "Headless Threads",
+      "kind": "guide",
+      "group": "Threads",
+      "child": true,
+      "docPath": "headless-threads",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        69
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": "Headless Threads - JS",
+          "clip": "ANTIGRAVITY-react-27-HeadlessThreads",
+          "loom": "https://www.loom.com/share/1c1875eda0264a44953d7f2414994585",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-19-ComponentsAsTools",
-     "loom": "https://www.loom.com/share/f5429e86c9e546bf80faac9415d73405",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "generative-ui-tool-rendering",
-   "label": "Tool Rendering",
-   "kind": "guide",
-   "group": "Controlled",
-   "child": true,
-   "docPath": "generative-ui/tool-rendering",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    36
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "frontend-tools",
+      "label": "Frontend Tools",
+      "kind": "guide",
+      "group": "Basics​",
+      "child": false,
+      "docPath": "frontend-tools",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-02-FrontendTools",
+          "loom": "https://www.loom.com/share/038e2b959d624b458f56b39eb761f48c",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-08-ToolRendering",
-     "loom": "https://www.loom.com/share/6debca71bd5240ebb4494b8721b520ab",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "recheck": "marked for re-check 2026-11-11 (finding unverifiable from saved evidence)"
-  },
-  {
-   "id": "generative-ui-state-rendering",
-   "label": "State Rendering",
-   "kind": "guide",
-   "group": "Controlled",
-   "child": true,
-   "docPath": "generative-ui/state-rendering",
-   "reachable": "none",
-   "removed": "2026-11-20: doc page gone (404) in the drift check; dropped from report and recording (DRIFT.md section 3)",
-   "status": "✅",
-   "findings": [
-    39
-   ],
-   "notes": [
-    "Note: set_steps uses experimental_get_state/set_state without imports."
-   ],
-   "block": null,
-   "links": [
+      "id": "gen-ui-tool-based",
+      "label": "Components as Tools",
+      "kind": "guide",
+      "group": "Controlled",
+      "child": true,
+      "docPath": "generative-ui/tool-based",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        78,
+        101
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-19-ComponentsAsTools",
+          "loom": "https://www.loom.com/share/f5429e86c9e546bf80faac9415d73405",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-07-StateRendering",
-     "loom": "https://www.loom.com/share/68c1453be1fe4eeb86a758666a31a540",
-     "narration": null,
-     "filmed": "2026-11-16"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "generative-ui-components",
-   "label": "Components and Surfaces",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    41,
-    42
-   ],
-   "notes": [
-    "Issue: only a BuiltInAgent setup is shown; with Antigravity no component renders."
-   ],
-   "block": null,
-   "links": [
+      "id": "generative-ui-tool-rendering",
+      "label": "Tool Rendering",
+      "kind": "guide",
+      "group": "Controlled",
+      "child": true,
+      "docPath": "generative-ui/tool-rendering",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        36
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-08-ToolRendering",
+          "loom": "https://www.loom.com/share/6debca71bd5240ebb4494b8721b520ab",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "recheck": "marked for re-check 2026-11-11 (finding unverifiable from saved evidence)"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-10-Components",
-     "loom": "https://www.loom.com/share/f2840fb7746c4205abf6524b657ca181",
-     "narration": "narration/scripts/ANTIGRAVITY-react-10-Components.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "gui-surfaces",
-   "label": "Surfaces",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/surfaces",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    87,
-    88
-   ],
-   "notes": [
-    "Issue: the agent calls render_ui but nothing renders, in the page or the chat."
-   ],
-   "block": null,
-   "links": [
+      "id": "generative-ui-state-rendering",
+      "label": "State Rendering",
+      "kind": "guide",
+      "group": "Controlled",
+      "child": true,
+      "docPath": "generative-ui/state-rendering",
+      "reachable": "none",
+      "removed": "2026-11-20: doc page gone (404) in the drift check; dropped from report and recording (DRIFT.md section 3)",
+      "status": "✅",
+      "findings": [
+        39
+      ],
+      "notes": [
+        "Note: set_steps uses experimental_get_state/set_state without imports."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-07-StateRendering",
+          "loom": "https://www.loom.com/share/68c1453be1fe4eeb86a758666a31a540",
+          "narration": null,
+          "filmed": "2026-11-16"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-28-Surfaces",
-     "loom": "https://www.loom.com/share/8ff539934d7e44fabbcdf320cfbcb4d4",
-     "narration": "narration/scripts/ANTIGRAVITY-react-28-Surfaces.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-catalogs",
-   "label": "Catalogs",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/catalogs",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    89
-   ],
-   "notes": [
-    "Issue: no Antigravity setup on the page; no catalog component renders."
-   ],
-   "block": null,
-   "links": [
+      "id": "generative-ui-components",
+      "label": "Components and Surfaces",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        41,
+        42
+      ],
+      "notes": [
+        "Issue: only a BuiltInAgent setup is shown; with Antigravity no component renders."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-10-Components",
+          "loom": "https://www.loom.com/share/f2840fb7746c4205abf6524b657ca181",
+          "narration": "narration/scripts/ANTIGRAVITY-react-10-Components.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-29-Catalogs",
-     "loom": "https://www.loom.com/share/49428fdbdbee4d758a6d2bc0065e7995",
-     "narration": "narration/scripts/ANTIGRAVITY-react-29-Catalogs.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-standard-catalog",
-   "label": "Standard catalog",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/standard-catalog",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    90
-   ],
-   "notes": [
-    "Issue: no standard component renders; the reply is text only."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-surfaces",
+      "label": "Surfaces",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/surfaces",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        87,
+        88
+      ],
+      "notes": [
+        "Issue: the agent calls render_ui but nothing renders, in the page or the chat."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-28-Surfaces",
+          "loom": "https://www.loom.com/share/8ff539934d7e44fabbcdf320cfbcb4d4",
+          "narration": "narration/scripts/ANTIGRAVITY-react-28-Surfaces.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-30-StandardCatalog",
-     "loom": "https://www.loom.com/share/a2b0e12c8bfb4e0da3fe1bf85d8c3fa2",
-     "narration": "narration/scripts/ANTIGRAVITY-react-30-StandardCatalog.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-state-and-actions",
-   "label": "State and actions",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/state-and-actions",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    91,
-    92
-   ],
-   "notes": [
-    "Issue: no Antigravity setup on the page; no product card renders."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-catalogs",
+      "label": "Catalogs",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/catalogs",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        89
+      ],
+      "notes": [
+        "Issue: no Antigravity setup on the page; no catalog component renders."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-29-Catalogs",
+          "loom": "https://www.loom.com/share/49428fdbdbee4d758a6d2bc0065e7995",
+          "narration": "narration/scripts/ANTIGRAVITY-react-29-Catalogs.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-31-StateAndActions",
-     "loom": "https://www.loom.com/share/04b21ca1e4664f3498b6380253dc2439",
-     "narration": "narration/scripts/ANTIGRAVITY-react-31-StateAndActions.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-theming",
-   "label": "Theming",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/theming",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    94
-   ],
-   "notes": [
-    "Issue: nothing renders (render_ui has no renderer), so the theme can't be seen."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-standard-catalog",
+      "label": "Standard catalog",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/standard-catalog",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        90
+      ],
+      "notes": [
+        "Issue: no standard component renders; the reply is text only."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-30-StandardCatalog",
+          "loom": "https://www.loom.com/share/60df002ab0a24efba376e849dc8a8364",
+          "narration": "narration/scripts/ANTIGRAVITY-react-30-StandardCatalog.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-32-Theming",
-     "loom": "https://www.loom.com/share/f72efb5916074f218bde1ad429d19331",
-     "narration": "narration/scripts/ANTIGRAVITY-react-32-Theming.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-transports",
-   "label": "Transports",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/transports",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    95,
-    96
-   ],
-   "notes": [
-    "Issue: only a LangGraph middleware setup; with Antigravity no generated UI shows."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-state-and-actions",
+      "label": "State and actions",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/state-and-actions",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        91,
+        92
+      ],
+      "notes": [
+        "Issue: no Antigravity setup on the page; no product card renders."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-31-StateAndActions",
+          "loom": "https://www.loom.com/share/04b21ca1e4664f3498b6380253dc2439",
+          "narration": "narration/scripts/ANTIGRAVITY-react-31-StateAndActions.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-33-Transports",
-     "loom": "https://www.loom.com/share/9470386e1f7c42eaac523d8fbdca56ac",
-     "narration": "narration/scripts/ANTIGRAVITY-react-33-Transports.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-markdown-mode",
-   "label": "Markdown mode",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/markdown-mode",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    97,
-    98
-   ],
-   "notes": [
-    "Issue: no a2ui block renders; the page never says how to pass context to Antigravity."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-theming",
+      "label": "Theming",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/theming",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        94
+      ],
+      "notes": [
+        "Issue: nothing renders (render_ui has no renderer), so the theme can't be seen."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-32-Theming",
+          "loom": "https://www.loom.com/share/0ecf3cf209f3404d9c0dd1f78a0430a8",
+          "narration": "narration/scripts/ANTIGRAVITY-react-32-Theming.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-34-MarkdownMode",
-     "loom": "https://www.loom.com/share/c530a7025070429a8ab53ce798bef248",
-     "narration": "narration/scripts/ANTIGRAVITY-react-34-MarkdownMode.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gui-from-a2ui",
-   "label": "Adopt from A2UI",
-   "kind": "guide",
-   "group": "Components and surfaces",
-   "child": true,
-   "docPath": "generative-ui/components/from-a2ui",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    99,
-    100
-   ],
-   "notes": [
-    "Issue: render_ui renders nothing on Antigravity; no Airport/Arrow UI."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-transports",
+      "label": "Transports",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/transports",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        95,
+        96
+      ],
+      "notes": [
+        "Issue: only a LangGraph middleware setup; with Antigravity no generated UI shows."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-33-Transports",
+          "loom": "https://www.loom.com/share/2dda817e667942ecb3fd18d730e3862c",
+          "narration": "narration/scripts/ANTIGRAVITY-react-33-Transports.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-35-FromA2UI",
-     "loom": "https://www.loom.com/share/a1f29ff565594075aa976bcf2634361a",
-     "narration": "narration/scripts/ANTIGRAVITY-react-35-FromA2UI.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "a2ui",
-   "label": "A2UI",
-   "kind": "guide",
-   "group": "A2UI",
-   "child": true,
-   "docPath": "generative-ui/a2ui",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    71,
-    103
-   ],
-   "notes": [
-    "Issue: no dashboard renders, agent errors out or dumps raw JSON."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-markdown-mode",
+      "label": "Markdown mode",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/markdown-mode",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        97,
+        98
+      ],
+      "notes": [
+        "Issue: no a2ui block renders; the page never says how to pass context to Antigravity."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-34-MarkdownMode",
+          "loom": "https://www.loom.com/share/dc3458bc4a4f4387a0bda8fd0192fb96",
+          "narration": "narration/scripts/ANTIGRAVITY-react-34-MarkdownMode.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-41-A2UI",
-     "loom": "https://www.loom.com/share/ab2e970f9a0845c4a622a64e1047c58d",
-     "narration": "narration/scripts/ANTIGRAVITY-react-41-A2UI.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "a2ui-dynamic-schema",
-   "label": "Dynamic Schema",
-   "kind": "guide",
-   "group": "A2UI",
-   "child": true,
-   "docPath": "generative-ui/a2ui/dynamic-schema",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    72
-   ],
-   "notes": [
-    "Issue: no dashboard renders, just an A2UI render error (reading 'map')."
-   ],
-   "block": null,
-   "links": [
+      "id": "gui-from-a2ui",
+      "label": "Adopt from A2UI",
+      "kind": "guide",
+      "group": "Components and surfaces",
+      "child": true,
+      "docPath": "generative-ui/components/from-a2ui",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        99,
+        100
+      ],
+      "notes": [
+        "Issue: render_ui renders nothing on Antigravity; no Airport/Arrow UI."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-35-FromA2UI",
+          "loom": "https://www.loom.com/share/a1f29ff565594075aa976bcf2634361a",
+          "narration": "narration/scripts/ANTIGRAVITY-react-35-FromA2UI.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-42-A2UIDynamicSchema",
-     "loom": "https://www.loom.com/share/7e2e1e61764049cc9f1c4ffd5d5e8b05",
-     "narration": "narration/scripts/ANTIGRAVITY-react-42-A2UIDynamicSchema.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "a2ui-fixed-schema",
-   "label": "Fixed Schema",
-   "kind": "guide",
-   "group": "A2UI",
-   "child": true,
-   "docPath": "generative-ui/a2ui/fixed-schema",
-   "reachable": "sidebar",
-   "status": "❌",
-   "findings": [
-    73
-   ],
-   "notes": [
-    "Issue: the flight card renders empty, no airline, airports or price."
-   ],
-   "block": null,
-   "links": [
+      "id": "a2ui",
+      "label": "A2UI",
+      "kind": "guide",
+      "group": "A2UI",
+      "child": true,
+      "docPath": "generative-ui/a2ui",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        71,
+        103
+      ],
+      "notes": [
+        "Issue: no dashboard renders, agent errors out or dumps raw JSON."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-41-A2UI",
+          "loom": "https://www.loom.com/share/32e3c623e8c448aba94efaacbc065aeb",
+          "narration": "narration/scripts/ANTIGRAVITY-react-41-A2UI.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-43-A2UIFixedSchema",
-     "loom": "https://www.loom.com/share/a1b5380c999f4df3b89605afbea768d1",
-     "narration": "narration/scripts/ANTIGRAVITY-react-43-A2UIFixedSchema.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "a2ui-styling",
-   "label": "Styling",
-   "kind": "guide",
-   "group": "A2UI",
-   "child": true,
-   "docPath": "generative-ui/a2ui/styling",
-   "reachable": "in-content",
-   "status": "❌",
-   "findings": [
-    104
-   ],
-   "notes": [
-    "Issue: themed flight card renders empty, no airline, airports or price."
-   ],
-   "block": null,
-   "links": [
+      "id": "a2ui-dynamic-schema",
+      "label": "Dynamic Schema",
+      "kind": "guide",
+      "group": "A2UI",
+      "child": true,
+      "docPath": "generative-ui/a2ui/dynamic-schema",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        72
+      ],
+      "notes": [
+        "Issue: no dashboard renders, just an A2UI render error (reading 'map')."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-42-A2UIDynamicSchema",
+          "loom": "https://www.loom.com/share/7e2e1e61764049cc9f1c4ffd5d5e8b05",
+          "narration": "narration/scripts/ANTIGRAVITY-react-42-A2UIDynamicSchema.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-47-A2UIStyling",
-     "loom": "https://www.loom.com/share/3039329a784341549397c07b10da7585",
-     "narration": "narration/scripts/ANTIGRAVITY-react-47-A2UIStyling.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-23"
-  },
-  {
-   "id": "a2ui-advanced",
-   "label": "Advanced",
-   "kind": "guide",
-   "group": "A2UI",
-   "child": true,
-   "docPath": "generative-ui/a2ui/advanced",
-   "reachable": "in-content",
-   "status": "❌",
-   "findings": [
-    105
-   ],
-   "notes": [
-    "Issue: no dashboard renders, A2UI render error reading 'map'."
-   ],
-   "block": null,
-   "links": [
+      "id": "a2ui-fixed-schema",
+      "label": "Fixed Schema",
+      "kind": "guide",
+      "group": "A2UI",
+      "child": true,
+      "docPath": "generative-ui/a2ui/fixed-schema",
+      "reachable": "sidebar",
+      "status": "❌",
+      "findings": [
+        73
+      ],
+      "notes": [
+        "Issue: the flight card renders empty, no airline, airports or price."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-43-A2UIFixedSchema",
+          "loom": "https://www.loom.com/share/a1b5380c999f4df3b89605afbea768d1",
+          "narration": "narration/scripts/ANTIGRAVITY-react-43-A2UIFixedSchema.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Issue",
-     "clip": "ANTIGRAVITY-react-48-A2UIAdvanced",
-     "loom": "https://www.loom.com/share/cb92fea5fa9e474f82f2ec757eca90f8",
-     "narration": "narration/scripts/ANTIGRAVITY-react-48-A2UIAdvanced.json",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-23"
-  },
-  {
-   "id": "json-render",
-   "label": "JSON Render",
-   "kind": "guide",
-   "group": "Declarative​",
-   "child": true,
-   "docPath": "generative-ui/json-render",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    74
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "a2ui-styling",
+      "label": "Styling",
+      "kind": "guide",
+      "group": "A2UI",
+      "child": true,
+      "docPath": "generative-ui/a2ui/styling",
+      "reachable": "in-content",
+      "status": "❌",
+      "findings": [
+        104
+      ],
+      "notes": [
+        "Issue: themed flight card renders empty, no airline, airports or price."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-47-A2UIStyling",
+          "loom": "https://www.loom.com/share/3039329a784341549397c07b10da7585",
+          "narration": "narration/scripts/ANTIGRAVITY-react-47-A2UIStyling.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-23"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-44-JSONRender",
-     "loom": "https://www.loom.com/share/4ff1b93aa7864b78b1b9f6555f9d1cbc",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "hashbrown",
-   "label": "Hashbrown",
-   "kind": "guide",
-   "group": "Declarative​",
-   "child": true,
-   "docPath": "generative-ui/hashbrown",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    75
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "a2ui-advanced",
+      "label": "Advanced",
+      "kind": "guide",
+      "group": "A2UI",
+      "child": true,
+      "docPath": "generative-ui/a2ui/advanced",
+      "reachable": "in-content",
+      "status": "❌",
+      "findings": [
+        105
+      ],
+      "notes": [
+        "Issue: no dashboard renders, A2UI render error reading 'map'."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Issue",
+          "clip": "ANTIGRAVITY-react-48-A2UIAdvanced",
+          "loom": "https://www.loom.com/share/cb92fea5fa9e474f82f2ec757eca90f8",
+          "narration": "narration/scripts/ANTIGRAVITY-react-48-A2UIAdvanced.json",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-23"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-45-Hashbrown",
-     "loom": "https://www.loom.com/share/f27ac12cdc2c4033b4063af6c67349b6",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "generative-ui-mcp-apps",
-   "label": "MCP Apps",
-   "kind": "guide",
-   "group": "Open-ended",
-   "child": true,
-   "docPath": "generative-ui/mcp-apps",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    44
-   ],
-   "notes": [
-    "Note: the Intelligence example uses a BuiltInAgent, not Antigravity."
-   ],
-   "block": null,
-   "links": [
+      "id": "json-render",
+      "label": "JSON Render",
+      "kind": "guide",
+      "group": "Declarative​",
+      "child": true,
+      "docPath": "generative-ui/json-render",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        74
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-44-JSONRender",
+          "loom": "https://www.loom.com/share/4ff1b93aa7864b78b1b9f6555f9d1cbc",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-11-McpApps",
-     "loom": "https://www.loom.com/share/4c6dfe44b3744fbeb11606b99273f08b",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "open-generative-ui",
-   "label": "Open Generative UI",
-   "kind": "guide",
-   "group": "Open-ended",
-   "child": true,
-   "docPath": "generative-ui/open-generative-ui",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "hashbrown",
+      "label": "Hashbrown",
+      "kind": "guide",
+      "group": "Declarative​",
+      "child": true,
+      "docPath": "generative-ui/hashbrown",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        75
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-45-Hashbrown",
+          "loom": "https://www.loom.com/share/f27ac12cdc2c4033b4063af6c67349b6",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-46-OpenGenerativeUI",
-     "loom": "https://www.loom.com/share/7494a4a943cd47438cc44985293a7661",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "shared-state",
-   "label": "Shared State",
-   "kind": "guide",
-   "group": "Shared state",
-   "child": true,
-   "docPath": "shared-state",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    24,
-    25
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "generative-ui-mcp-apps",
+      "label": "MCP Apps",
+      "kind": "guide",
+      "group": "Open-ended",
+      "child": true,
+      "docPath": "generative-ui/mcp-apps",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        44
+      ],
+      "notes": [
+        "Note: the Intelligence example uses a BuiltInAgent, not Antigravity."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-11-McpApps",
+          "loom": "https://www.loom.com/share/4c6dfe44b3744fbeb11606b99273f08b",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-06-SharedState",
-     "loom": "https://www.loom.com/share/fdf76d2a988f4dbf8f83791b9a3fd87d",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "rendering-in-app",
-   "label": "Render agent state in your app",
-   "kind": "guide",
-   "group": "Shared state",
-   "child": true,
-   "docPath": "shared-state/rendering-in-app",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    79,
-    80
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "open-generative-ui",
+      "label": "Open Generative UI",
+      "kind": "guide",
+      "group": "Open-ended",
+      "child": true,
+      "docPath": "generative-ui/open-generative-ui",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-46-OpenGenerativeUI",
+          "loom": "https://www.loom.com/share/7494a4a943cd47438cc44985293a7661",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": "Render agent state in your app - JS",
-     "clip": "ANTIGRAVITY-react-20-RenderingInApp",
-     "loom": "https://www.loom.com/share/bda577de2a664cf0b3c8eac178d80d7f",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "shared-state-streaming",
-   "label": "State Streaming",
-   "kind": "guide",
-   "group": "Shared state",
-   "child": true,
-   "docPath": "shared-state/streaming",
-   "reachable": "none",
-   "status": "N/A",
-   "findings": [],
-   "notes": [
-    "Note: not available, the page says Google Antigravity doesn't support it."
-   ],
-   "block": null,
-   "links": [],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "agent-readonly",
-   "label": "Agent Read-Only Context",
-   "kind": "guide",
-   "group": "Shared state",
-   "child": true,
-   "docPath": "shared-state/agent-readonly",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    81,
-    82,
-    83
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "shared-state",
+      "label": "Shared State",
+      "kind": "guide",
+      "group": "Shared state",
+      "child": true,
+      "docPath": "shared-state",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        24,
+        25
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-06-SharedState",
+          "loom": "https://www.loom.com/share/fdf76d2a988f4dbf8f83791b9a3fd87d",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-21-AgentReadonlyContext",
-     "loom": "https://www.loom.com/share/2f416457af5946c5bca6e06f96b20ef6",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "human-in-the-loop",
-   "label": "HITL Overview",
-   "kind": "guide",
-   "group": "Human-in-the-loop",
-   "child": true,
-   "docPath": "human-in-the-loop",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    47
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "rendering-in-app",
+      "label": "Render agent state in your app",
+      "kind": "guide",
+      "group": "Shared state",
+      "child": true,
+      "docPath": "shared-state/rendering-in-app",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        79,
+        80
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": "Render agent state in your app - JS",
+          "clip": "ANTIGRAVITY-react-20-RenderingInApp",
+          "loom": "https://www.loom.com/share/bda577de2a664cf0b3c8eac178d80d7f",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-03-HumanInTheLoop",
-     "loom": "https://www.loom.com/share/d15928eb7b5a419883181a309c7dad7a",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "human-in-the-loop-useinterrupt",
-   "label": "useInterrupt",
-   "kind": "guide",
-   "group": "Human-in-the-loop",
-   "child": true,
-   "docPath": "human-in-the-loop/useInterrupt",
-   "reachable": "sidebar",
-   "status": "N/A",
-   "findings": [],
-   "notes": [
-    "Note: not available, the page says Google Antigravity doesn't support it."
-   ],
-   "block": null,
-   "links": [],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "human-in-the-loop-headless",
-   "label": "Headless Interrupts",
-   "kind": "guide",
-   "group": "Human-in-the-loop",
-   "child": true,
-   "docPath": "human-in-the-loop/headless",
-   "reachable": "sidebar",
-   "status": "N/A",
-   "findings": [],
-   "notes": [
-    "Note: not available, the page says Google Antigravity doesn't support it."
-   ],
-   "block": null,
-   "links": [],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "governed-actions",
-   "label": "Governed Action Approval UI",
-   "kind": "guide",
-   "group": "Human-in-the-loop",
-   "child": true,
-   "docPath": "human-in-the-loop/governed-actions",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    84,
-    85,
-    86
-   ],
-   "notes": [
-    "Note: only the useHumanInTheLoop card works; useInterrupt has no Antigravity backend."
-   ],
-   "block": null,
-   "links": [
+      "id": "shared-state-streaming",
+      "label": "State Streaming",
+      "kind": "guide",
+      "group": "Shared state",
+      "child": true,
+      "docPath": "shared-state/streaming",
+      "reachable": "none",
+      "status": "N/A",
+      "findings": [],
+      "notes": [
+        "Note: not available, the page says Google Antigravity doesn't support it."
+      ],
+      "block": null,
+      "links": [],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-22-GovernedActions",
-     "loom": "https://www.loom.com/share/59946a64d8374bca9a9cd03f33547d0b",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "webmcp",
-   "label": "WebMCP",
-   "kind": "guide",
-   "group": "Interactivity​",
-   "child": false,
-   "docPath": "webmcp",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    33
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "agent-readonly",
+      "label": "Agent Read-Only Context",
+      "kind": "guide",
+      "group": "Shared state",
+      "child": true,
+      "docPath": "shared-state/agent-readonly",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        81,
+        82,
+        83
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-21-AgentReadonlyContext",
+          "loom": "https://www.loom.com/share/2f416457af5946c5bca6e06f96b20ef6",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-13-WebMCP",
-     "loom": "https://www.loom.com/share/d1707c2538e64b7dbe349cc48cd61fd2",
-     "narration": null,
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "multi-agent-subagents",
-   "label": "Sub-Agents",
-   "kind": "guide",
-   "group": "Agent capabilities",
-   "child": false,
-   "docPath": "multi-agent/subagents",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    27,
-    49
-   ],
-   "notes": [
-    "Note: install step leaves out httpx."
-   ],
-   "block": null,
-   "links": [
+      "id": "human-in-the-loop",
+      "label": "HITL Overview",
+      "kind": "guide",
+      "group": "Human-in-the-loop",
+      "child": true,
+      "docPath": "human-in-the-loop",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        47
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-03-HumanInTheLoop",
+          "loom": "https://www.loom.com/share/d15928eb7b5a419883181a309c7dad7a",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": "Sub-Agents - JS",
-     "clip": "ANTIGRAVITY-react-12-SubAgents",
-     "loom": "https://www.loom.com/share/21671634804248eca4e8fb87f2f94e28",
-     "filmed": "2026-11-24"
-    }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   }
-  },
-  {
-   "id": "inspector",
-   "label": "Inspector",
-   "kind": "guide",
-   "group": "Debugging",
-   "child": true,
-   "docPath": "inspector",
-   "reachable": "sidebar",
-   "status": "✅",
-   "findings": [
-    35
-   ],
-   "notes": [],
-   "block": null,
-   "links": [
+      "id": "human-in-the-loop-useinterrupt",
+      "label": "useInterrupt",
+      "kind": "guide",
+      "group": "Human-in-the-loop",
+      "child": true,
+      "docPath": "human-in-the-loop/useInterrupt",
+      "reachable": "sidebar",
+      "status": "N/A",
+      "findings": [],
+      "notes": [
+        "Note: not available, the page says Google Antigravity doesn't support it."
+      ],
+      "block": null,
+      "links": [],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
     {
-     "text": null,
-     "clip": "ANTIGRAVITY-react-14-Inspector",
-     "loom": "https://www.loom.com/share/b1983907fd1342dc9d8b050073801088",
-     "narration": null,
-     "filmed": "2026-11-23"
+      "id": "human-in-the-loop-headless",
+      "label": "Headless Interrupts",
+      "kind": "guide",
+      "group": "Human-in-the-loop",
+      "child": true,
+      "docPath": "human-in-the-loop/headless",
+      "reachable": "sidebar",
+      "status": "N/A",
+      "findings": [],
+      "notes": [
+        "Note: not available, the page says Google Antigravity doesn't support it."
+      ],
+      "block": null,
+      "links": [],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
+    {
+      "id": "governed-actions",
+      "label": "Governed Action Approval UI",
+      "kind": "guide",
+      "group": "Human-in-the-loop",
+      "child": true,
+      "docPath": "human-in-the-loop/governed-actions",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        84,
+        85,
+        86
+      ],
+      "notes": [
+        "Note: only the useHumanInTheLoop card works; useInterrupt has no Antigravity backend."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-22-GovernedActions",
+          "loom": "https://www.loom.com/share/59946a64d8374bca9a9cd03f33547d0b",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "added": "2026-11-10"
+    },
+    {
+      "id": "webmcp",
+      "label": "WebMCP",
+      "kind": "guide",
+      "group": "Interactivity​",
+      "child": false,
+      "docPath": "webmcp",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        33
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-13-WebMCP",
+          "loom": "https://www.loom.com/share/d1707c2538e64b7dbe349cc48cd61fd2",
+          "narration": null,
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
+    {
+      "id": "multi-agent-subagents",
+      "label": "Sub-Agents",
+      "kind": "guide",
+      "group": "Agent capabilities",
+      "child": false,
+      "docPath": "multi-agent/subagents",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        27,
+        49
+      ],
+      "notes": [
+        "Note: install step leaves out httpx."
+      ],
+      "block": null,
+      "links": [
+        {
+          "text": "Sub-Agents - JS",
+          "clip": "ANTIGRAVITY-react-12-SubAgents",
+          "loom": "https://www.loom.com/share/21671634804248eca4e8fb87f2f94e28",
+          "filmed": "2026-11-24"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      }
+    },
+    {
+      "id": "inspector",
+      "label": "Inspector",
+      "kind": "guide",
+      "group": "Debugging",
+      "child": true,
+      "docPath": "inspector",
+      "reachable": "sidebar",
+      "status": "✅",
+      "findings": [
+        35
+      ],
+      "notes": [],
+      "block": null,
+      "links": [
+        {
+          "text": null,
+          "clip": "ANTIGRAVITY-react-14-Inspector",
+          "loom": "https://www.loom.com/share/b1983907fd1342dc9d8b050073801088",
+          "narration": null,
+          "filmed": "2026-11-23"
+        }
+      ],
+      "review": {
+        "verdict": null,
+        "approvedAt": null,
+        "by": null
+      },
+      "recheck": "marked for re-check 2026-11-11 (finding unverifiable from saved evidence)",
+      "excluded": "Backend section of the docs sidebar (owner 2026-11-23: Backend pages out of scope)"
     }
-   ],
-   "review": {
-    "verdict": null,
-    "approvedAt": null,
-    "by": null
-   },
-   "recheck": "marked for re-check 2026-11-11 (finding unverifiable from saved evidence)",
-   "excluded": "Backend section of the docs sidebar (owner 2026-11-23: Backend pages out of scope)"
-  }
- ]
+  ]
 }
