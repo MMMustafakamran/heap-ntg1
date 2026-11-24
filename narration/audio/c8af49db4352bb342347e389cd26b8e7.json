@@ -1,0 +1,9 @@
+{
+ "text": "So basically, no dashboard ever renders, the run ends in a render error, and the error changes from run to run. And the catalog and agent come from the Dynamic Schema page, which breaks too.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 13.421,
+ "file": "c8af49db4352bb342347e389cd26b8e7.mp3",
+ "clip": "ANTIGRAVITY-react-41-A2UI",
+ "at": "notepad"
+}

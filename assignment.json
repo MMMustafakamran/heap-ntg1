@@ -886,7 +886,7 @@
     90
    ],
    "notes": [
-    "Issue: no standard component renders; the agent replies with a plain markdown table."
+    "Issue: no standard component renders; the reply is text only."
    ],
    "block": null,
    "links": [

@@ -17,11 +17,11 @@
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. I asked for the plans in a table, it should render a table component, but umm, I get a plain markdown table."
+   "text": "Moving on to the demo. I asked for the plans in a table, it should render a table component, but umm, the reply is just text."
   },
   {
    "at": "notepad",
-   "text": "So basically, the standard components should show up, but the agent just answers in text, and the page never names the agent."
+   "text": "So basically, the standard components should show up, but no standard catalog component renders, the reply is text only, and the page never names the agent."
   },
   {
    "at": "+",
