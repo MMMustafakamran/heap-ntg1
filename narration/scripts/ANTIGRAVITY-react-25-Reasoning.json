@@ -13,7 +13,7 @@
   },
   {
    "at": "evidence#2",
-   "text": "And the backend for this agent needs an agents common module, which is never shown."
+   "text": "And this agent id points at a backend that needs an agents common module, which is never shown."
   },
   {
    "at": "ide",

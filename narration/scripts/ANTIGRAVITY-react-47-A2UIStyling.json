@@ -13,7 +13,11 @@
   },
   {
    "at": "ide",
-   "text": "This is my project, I've implemented the exact code from the doc."
+   "text": "This is my project, the CSS and the layout import are straight from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part wasn't on the page, a surface to style, so I used the flight card from the Fixed Schema page."
   },
   {
    "at": "demo",

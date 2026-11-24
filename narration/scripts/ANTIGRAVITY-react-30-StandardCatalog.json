@@ -16,10 +16,6 @@
    "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
-   "at": "+",
-   "text": "One thing wasn't on the page, which agent to use, so I added the Antigravity agent id myself."
-  },
-  {
    "at": "demo",
    "text": "Moving on to the demo. I asked for the plans in a table, it should render a table component, but umm, I get a plain markdown table."
   },
