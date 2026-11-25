@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked for a sales dashboard, it should render as an A2UI surface, but uh, the surface fails with a render error.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 11.006,
+ "file": "7ae721c3c4985ecfb827a5de77f7cd2a.mp3",
+ "clip": "ANTIGRAVITY-react-41-A2UI",
+ "at": "demo"
+}

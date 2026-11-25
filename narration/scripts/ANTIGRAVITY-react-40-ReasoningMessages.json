@@ -20,16 +20,16 @@
    "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
-   "at": "+",
-   "text": "This part wasn't on the page, the agents common module, so I copied it from the showcase."
+   "at": "added",
+   "text": "This part, the agents common module, wasn't on the page, so I copied it from the showcase."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. I asked it to think step by step, it should show a reasoning message, but uh, it just gives the plain answer."
+   "text": "Moving on to the demo. I asked it to think step by step, and uh, the reasoning doesn't show up the way the page says it should."
   },
   {
    "at": "notepad",
-   "text": "So basically, the doc says reasoning shows up in the chat, but nothing shows, because the backend needs a common module that's never published."
+   "text": "So basically, the doc says reasoning shows up in the chat, but it doesn't come through like the page says, and the backend needs a common module that's never published."
   },
   {
    "at": "+",

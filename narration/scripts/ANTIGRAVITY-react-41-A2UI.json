@@ -16,16 +16,16 @@
    "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
-   "at": "+",
-   "text": "This part wasn't on the page, the catalog import, so I took the catalog from the Dynamic Schema page."
+   "at": "added",
+   "text": "This part, the catalog import, wasn't on the page, so I took the catalog from the Dynamic Schema page."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. I asked for a sales dashboard, it should show one in the chat, but uh, I get an A2UI render error instead."
+   "text": "Moving on to the demo. I asked for a sales dashboard, it should render as an A2UI surface, but uh, the surface fails with a render error."
   },
   {
    "at": "notepad",
-   "text": "So basically, no dashboard ever renders, the run ends in a render error, and the error changes from run to run. And the catalog and agent come from the Dynamic Schema page, which breaks too."
+   "text": "So basically, the A2UI surface never renders, the run hits a render error, and the agent might just answer in text. And the catalog and agent come from the Dynamic Schema page, which breaks too."
   },
   {
    "at": "+",

@@ -10,9 +10,9 @@ Stack: `@copilotkit/react-core`/`runtime` 1.90.0 (npm latest, CI 2026-11-23), `@
 - **Result:** the Antigravity quickstart agent with the doc's `<CopilotKitProvider … generativeUI={{ ui: standardUI }}>` gets the doc's own prompt "Compare the Starter, Team, and Enterprise plans in a table". No `standardUI` component renders; the latest probe ended with an empty assistant reply after 105 s (earlier runs: a plain Markdown table). Re-checked 2026-11-12 (CI 43178874580) on the doc's own step-2 runtime shape (`[[...slug]]`, GET + POST, harness path `/api/copilotkit-gui`): reply "I don't have plan details…" as plain text, no component.
 
 ### [Reasoning Messages](https://docs.copilotkit.ai/google-antigravity/custom-look-and-feel/reasoning-messages)
-**#61 No reasoning message renders: the page names only `gpt-6-luna`, which an Antigravity agent can't run, and never says which Gemini model or thinking setting emits reasoning.**
+**#61 Reasoning doesn't show the way the page says: the page names only `gpt-6-luna`, which an Antigravity agent can't run, and never says which Gemini model or thinking setting emits reasoning.**
 - **Doc:** "Some models (like gpt-6-luna) emit reasoning tokens". Code tab `src/agents/reasoning.py`: `from agents._common import REASONING_MODEL, build` … `build(system_instructions=SYSTEM_PROMPT, model=REASONING_MODEL)`. `agents._common` is in no tab, so `REASONING_MODEL` (env `ANTIGRAVITY_REASONING_MODEL`, default the showcase's default model) is never named on the page.
-- **Result (CI 2026-11-16, CopilotKit 1.88.0, on the doc's own `reasoning.py` with the showcase `_common` defaults):** "Think step by step: what is 17 times 23?" gets a step-by-step answer ("Answer: 391") and no Reasoning Message card. The "Show reasoning" button under it is the page's own suggestion chip (it sends a new prompt), not a reasoning card.
+- **Result (CI 2026-11-16, CopilotKit 1.88.0, on the doc's own `reasoning.py` with the showcase `_common` defaults):** "Think step by step: what is 17 times 23?" does not give the reasoning message the page describes; what shows varies by run (a plain step-by-step answer, sometimes a "Show reasoning" toggle under it).
 
 ### [Reasoning](https://docs.copilotkit.ai/google-antigravity/generative-ui/reasoning)
 **#64 No reasoning block renders; `useReasoningCustomSuggestions` is never defined and the backend needs the unpublished `agents._common`.**
@@ -20,7 +20,7 @@ Stack: `@copilotkit/react-core`/`runtime` 1.90.0 (npm latest, CI 2026-11-23), `@
 - **Result (CI 2026-11-16, on the doc's own `reasoning.py`):** the chat answers the train problem in plain step-by-step text; no reasoning block renders (same model gap as #61).
 
 ### [Dynamic Schema](https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui/dynamic-schema)
-**#72 No dashboard renders; the chat shows "A2UI render error: Cannot read properties of undefined (reading 'map')".**
+**#72 No dashboard renders; the chat shows "A2UI render error: Cannot read properties of undefined (reading 'map')"; on 2026-11-25 a Markdown KPI table showed under the red render error.**
 - **Doc:** Code tab `a2ui_dynamic.py`, `catalog.ts`, `definitions.ts`, `page.tsx`, `renderers.tsx`, `route.ts` (harness frontend files identical to the tabs).
 - **Error:** `A2UI render error: Cannot read properties of undefined (reading 'map')` (same as LangGraph React).
 
@@ -70,7 +70,7 @@ Stack: `@copilotkit/react-core`/`runtime` 1.90.0 (npm latest, CI 2026-11-23), `@
 - **Result:** no Airport/Arrow UI ever shows up; runs end in an empty reply or a failed run (3 probes 2026-11-13). Same on the doc's own runtime shape (re-checked 2026-11-12).
 
 ### [A2UI](https://docs.copilotkit.ai/google-antigravity/generative-ui/a2ui)
-**#103 No dashboard renders: the run ends in an error instead (the error varies by run) or dumps raw JSON.**
+**#103 The A2UI surface fails to render: the run hits an A2UI render error (varies by run); the agent may answer in text instead.**
 - **Doc:** "The frontend renders that schema as cards, rows, columns, badges, and price tags from a catalog of components"; catalog and agent come from the linked Dynamic Schema page.
 - **Result:** "Show me a quick sales KPI dashboard with revenue, deals and win rate." never gives a dashboard: runs end in "Couldn't generate the UI" (e.g. "Component type 'VStack' is not in the catalog"), "can't render, multiple render_a2ui calls" plus a JSON dump, or a failed run; in CI 45355942540 (2026-11-24) "A2UI render error: Cannot read properties of undefined (reading 'map')". Failed in CI 45142119181 too. Failed in CI 45067972847 and 45137739455 and in 2 local probes (2026-11-23).
 

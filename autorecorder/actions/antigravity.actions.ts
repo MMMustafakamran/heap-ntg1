@@ -27,7 +27,7 @@ export const FINDING_NOTES: Record<string, string> = {
   ].join('\n'),
   'clf-reasoning-messages': [
     "page says reasoning models emit reasoning tokens and copilotkit shows them in the chat",
-    "ran it, chat answers fine but no reasoning message ever shows up, just the plain reply",
+    "ran it, the reasoning doesnt show up the way the page says",
     "backend reasoning.py takes reasoning_model and builds from agents._common",
     "that module isnt published anywhere so u dont know which model to use",
   ].join('\n'),
@@ -39,8 +39,8 @@ export const FINDING_NOTES: Record<string, string> = {
   ].join('\n'),
   'a2ui': [
     "a2ui page says the frontend renders the agents schema as cards rows columns badges",
-    "asked for a sales kpi dashboard, no dashboard shows up",
-    "the run ends in an a2ui render error instead,the error changes from run to run",
+    "asked for a sales kpi dashboard, the a2ui surface never renders",
+    "run hits an a2ui render error, sometimes the agent just answers in text,changes run to run",
     "page sends u to dynamic schema for the catalog and agent and that setup doesnt render either",
   ].join('\n'),
   'a2ui-styling': [
@@ -132,7 +132,7 @@ export const FINDING_EVIDENCE: Record<string, DocEvidence[]> = {
     { text: 'const AGENT_ID = "reasoning-custom";', caption: 'Backed by reasoning.py, which needs the unpublished agents._common.REASONING_MODEL' },
   ],
   'a2ui': [
-    { text: 'renders that schema as cards, rows, columns, badges', caption: 'No dashboard renders; agent errors out or dumps JSON (FINDINGS.md #103)' },
+    { text: 'renders that schema as cards, rows, columns, badges', caption: 'The A2UI surface fails to render (FINDINGS.md #103)' },
   ],
   'a2ui-styling': [
     { text: 'A2UI surfaces support theming through CSS custom properties', caption: 'Flight card renders empty, nothing to theme (FINDINGS.md #104)' },
