@@ -7,6 +7,7 @@ import { runStandardAction } from '../core/actions';
 import { type DocEvidence, showFinding } from './doc-evidence';
 import { checkpoint, mark, probeText } from '../core/timeline';
 import { registerDocEvidence } from '../core/doc-evidence';
+import { waitForUiOrRunEnd } from '../core/run-watch';
 
 /**
  * Finding clips: back to the doc, drag-select each cited text like a person, then the finding
@@ -349,13 +350,16 @@ export const runSubagentsAction: PageActionHandler = async (page, config, root, 
 };
 
 const runSubagentsTake: PageActionHandler = async (page, config, _root, ctx) => {
+  const sentAt = Date.now() - 5000; // the run POST may start while sendPrompt is still returning
   const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
   const entries = page.locator('[data-testid="delegation-entry"]');
   // Stop waiting as soon as the run errors (e.g. "fetch failed" when the sub-agents server is
   // down, FINDINGS.md #49): minutes of a frozen chat explain nothing.
   const runError = page.locator('[data-testid="copilot-error-banner"]').or(page.getByText(/fetch failed|Agent error/i)).first();
   const outcome = await Promise.race([
-    entries.first().waitFor({ state: 'visible', timeout: 180000 }).then(() => 'delegated' as const),
+    // Gives up once the run ended and the screen stayed still (core/run-watch.ts); 180 s cap.
+    waitForUiOrRunEnd(page, entries.first(), { timeoutMs: 180000, sinceT: sentAt })
+      .then((r) => (r.ui ? ('delegated' as const) : ('timeout' as const))),
     runError.waitFor({ state: 'visible', timeout: 180000 }).then(() => 'error' as const),
   ]).catch(() => 'timeout' as const);
   if (outcome !== 'delegated') {
